@@ -3,9 +3,15 @@
 const gulp = require("gulp");
 const webpack = require("webpack-stream");
 const browsersync = require("browser-sync");
+var deploy = require('gulp-gh-pages');
 
 const dist = "./dist/";
 // const dist = "C:/openserver/domains/picture-test";
+
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+             .pipe(deploy());
+});
 
 gulp.task("copy-html", () => {
     return gulp.src("./src/index.html")

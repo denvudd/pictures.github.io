@@ -43,7 +43,7 @@ const sliders = (slides, direction, prev, next) => {
     });
   } catch(e) {}
 
-  function activateAniamtion () {
+  function activateAnimation () {
     if (direction === 'vertical') {
       pause = setInterval(() => {
         changeSlides(1);
@@ -58,15 +58,21 @@ const sliders = (slides, direction, prev, next) => {
     }
   }
 
-  activateAniamtion();
+  activateAnimation();
 
   items[0].parentNode.addEventListener('mouseenter', () => {
     clearInterval(pause);
   });
 
   items[0].parentNode.addEventListener('mouseleave', () => {
-    activateAniamtion();
+    activateAnimation();
   });
+
+  if (window.screen.availWidth < 992) {
+    console.log('mobile');
+    clearInterval(pause);
+    
+  }
 }
 
 export default sliders;

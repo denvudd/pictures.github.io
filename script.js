@@ -1,1 +1,2743 @@
-!function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)n.d(r,o,function(t){return e[t]}.bind(null,o));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=61)}([function(e,t,n){(function(t){var n=function(e){return e&&e.Math==Math&&e};e.exports=n("object"==typeof globalThis&&globalThis)||n("object"==typeof window&&window)||n("object"==typeof self&&self)||n("object"==typeof t&&t)||Function("return this")()}).call(this,n(31))},function(e,t){e.exports=function(e){try{return!!e()}catch(e){return!0}}},function(e,t){var n={}.hasOwnProperty;e.exports=function(e,t){return n.call(e,t)}},function(e,t,n){var r=n(4);e.exports=function(e){if(!r(e))throw TypeError(String(e)+" is not an object");return e}},function(e,t){e.exports=function(e){return"object"==typeof e?null!==e:"function"==typeof e}},function(e,t,n){var r=n(6),o=n(18),i=n(14);e.exports=r?function(e,t,n){return o.f(e,t,i(1,n))}:function(e,t,n){return e[t]=n,e}},function(e,t,n){var r=n(1);e.exports=!r((function(){return 7!=Object.defineProperty({},"a",{get:function(){return 7}}).a}))},function(e,t){e.exports=function(e){if(null==e)throw TypeError("Can't call method on "+e);return e}},function(e,t){var n=Math.ceil,r=Math.floor;e.exports=function(e){return isNaN(e=+e)?0:(e>0?r:n)(e)}},function(e,t,n){var r=n(33),o=n(7);e.exports=function(e){return r(o(e))}},function(e,t,n){var r=n(0),o=n(5),i=n(2),c=n(11),l=n(19),a=n(36),u=a.get,s=a.enforce,f=String(String).split("String");(e.exports=function(e,t,n,l){var a=!!l&&!!l.unsafe,u=!!l&&!!l.enumerable,d=!!l&&!!l.noTargetGet;"function"==typeof n&&("string"!=typeof t||i(n,"name")||o(n,"name",t),s(n).source=f.join("string"==typeof t?t:"")),e!==r?(a?!d&&e[t]&&(u=!0):delete e[t],u?e[t]=n:o(e,t,n)):u?e[t]=n:c(t,n)})(Function.prototype,"toString",(function(){return"function"==typeof this&&u(this).source||l(this)}))},function(e,t,n){var r=n(0),o=n(5);e.exports=function(e,t){try{o(r,e,t)}catch(n){r[e]=t}return t}},function(e,t,n){var r=n(20),o=n(35);(e.exports=function(e,t){return o[e]||(o[e]=void 0!==t?t:{})})("versions",[]).push({version:"3.4.5",mode:r?"pure":"global",copyright:"© 2019 Denis Pushkarev (zloirock.ru)"})},function(e,t,n){var r=n(6),o=n(32),i=n(14),c=n(9),l=n(16),a=n(2),u=n(17),s=Object.getOwnPropertyDescriptor;t.f=r?s:function(e,t){if(e=c(e),t=l(t,!0),u)try{return s(e,t)}catch(e){}if(a(e,t))return i(!o.f.call(e,t),e[t])}},function(e,t){e.exports=function(e,t){return{enumerable:!(1&e),configurable:!(2&e),writable:!(4&e),value:t}}},function(e,t){var n={}.toString;e.exports=function(e){return n.call(e).slice(8,-1)}},function(e,t,n){var r=n(4);e.exports=function(e,t){if(!r(e))return e;var n,o;if(t&&"function"==typeof(n=e.toString)&&!r(o=n.call(e)))return o;if("function"==typeof(n=e.valueOf)&&!r(o=n.call(e)))return o;if(!t&&"function"==typeof(n=e.toString)&&!r(o=n.call(e)))return o;throw TypeError("Can't convert object to primitive value")}},function(e,t,n){var r=n(6),o=n(1),i=n(34);e.exports=!r&&!o((function(){return 7!=Object.defineProperty(i("div"),"a",{get:function(){return 7}}).a}))},function(e,t,n){var r=n(6),o=n(17),i=n(3),c=n(16),l=Object.defineProperty;t.f=r?l:function(e,t,n){if(i(e),t=c(t,!0),i(n),o)try{return l(e,t,n)}catch(e){}if("get"in n||"set"in n)throw TypeError("Accessors not supported");return"value"in n&&(e[t]=n.value),e}},function(e,t,n){var r=n(12),o=Function.toString;e.exports=r("inspectSource",(function(e){return o.call(e)}))},function(e,t){e.exports=!1},function(e,t){var n=0,r=Math.random();e.exports=function(e){return"Symbol("+String(void 0===e?"":e)+")_"+(++n+r).toString(36)}},function(e,t){e.exports={}},function(e,t,n){var r=n(41),o=n(0),i=function(e){return"function"==typeof e?e:void 0};e.exports=function(e,t){return arguments.length<2?i(r[e])||i(o[e]):r[e]&&r[e][t]||o[e]&&o[e][t]}},function(e,t,n){var r=n(8),o=Math.min;e.exports=function(e){return e>0?o(r(e),9007199254740991):0}},function(e,t){e.exports=function(e){if("function"!=typeof e)throw TypeError(String(e)+" is not a function");return e}},function(e,t,n){var r=n(0),o=n(12),i=n(2),c=n(21),l=n(27),a=n(51),u=o("wks"),s=r.Symbol,f=a?s:c;e.exports=function(e){return i(u,e)||(l&&i(s,e)?u[e]=s[e]:u[e]=f("Symbol."+e)),u[e]}},function(e,t,n){var r=n(1);e.exports=!!Object.getOwnPropertySymbols&&!r((function(){return!String(Symbol())}))},function(e,t,n){"use strict";var r,o,i=n(56),c=RegExp.prototype.exec,l=String.prototype.replace,a=c,u=(r=/a/,o=/b*/g,c.call(r,"a"),c.call(o,"a"),0!==r.lastIndex||0!==o.lastIndex),s=void 0!==/()??/.exec("")[1];(u||s)&&(a=function(e){var t,n,r,o,a=this;return s&&(n=new RegExp("^"+a.source+"$(?!\\s)",i.call(a))),u&&(t=a.lastIndex),r=c.call(a,e),u&&r&&(a.lastIndex=a.global?r.index+r[0].length:t),s&&r&&r.length>1&&l.call(r[0],n,(function(){for(o=1;o<arguments.length-2;o++)void 0===arguments[o]&&(r[o]=void 0)})),r}),e.exports=a},function(e,t,n){"use strict";var r=n(30),o=n(20),i=n(49),c=n(1),l=n(23),a=n(50),u=n(52),s=n(10);r({target:"Promise",proto:!0,real:!0,forced:!!i&&c((function(){i.prototype.finally.call({then:function(){}},(function(){}))}))},{finally:function(e){var t=a(this,l("Promise")),n="function"==typeof e;return this.then(n?function(n){return u(t,e()).then((function(){return n}))}:e,n?function(n){return u(t,e()).then((function(){throw n}))}:e)}}),o||"function"!=typeof i||i.prototype.finally||s(i.prototype,"finally",l("Promise").prototype.finally)},function(e,t,n){var r=n(0),o=n(13).f,i=n(5),c=n(10),l=n(11),a=n(39),u=n(48);e.exports=function(e,t){var n,s,f,d,p,v=e.target,y=e.global,h=e.stat;if(n=y?r:h?r[v]||l(v,{}):(r[v]||{}).prototype)for(s in t){if(d=t[s],f=e.noTargetGet?(p=o(n,s))&&p.value:n[s],!u(y?s:v+(h?".":"#")+s,e.forced)&&void 0!==f){if(typeof d==typeof f)continue;a(d,f)}(e.sham||f&&f.sham)&&i(d,"sham",!0),c(n,s,d,e)}}},function(e,t){var n;n=function(){return this}();try{n=n||new Function("return this")()}catch(e){"object"==typeof window&&(n=window)}e.exports=n},function(e,t,n){"use strict";var r={}.propertyIsEnumerable,o=Object.getOwnPropertyDescriptor,i=o&&!r.call({1:2},1);t.f=i?function(e){var t=o(this,e);return!!t&&t.enumerable}:r},function(e,t,n){var r=n(1),o=n(15),i="".split;e.exports=r((function(){return!Object("z").propertyIsEnumerable(0)}))?function(e){return"String"==o(e)?i.call(e,""):Object(e)}:Object},function(e,t,n){var r=n(0),o=n(4),i=r.document,c=o(i)&&o(i.createElement);e.exports=function(e){return c?i.createElement(e):{}}},function(e,t,n){var r=n(0),o=n(11),i=r["__core-js_shared__"]||o("__core-js_shared__",{});e.exports=i},function(e,t,n){var r,o,i,c=n(37),l=n(0),a=n(4),u=n(5),s=n(2),f=n(38),d=n(22),p=l.WeakMap;if(c){var v=new p,y=v.get,h=v.has,m=v.set;r=function(e,t){return m.call(v,e,t),t},o=function(e){return y.call(v,e)||{}},i=function(e){return h.call(v,e)}}else{var g=f("state");d[g]=!0,r=function(e,t){return u(e,g,t),t},o=function(e){return s(e,g)?e[g]:{}},i=function(e){return s(e,g)}}e.exports={set:r,get:o,has:i,enforce:function(e){return i(e)?o(e):r(e,{})},getterFor:function(e){return function(t){var n;if(!a(t)||(n=o(t)).type!==e)throw TypeError("Incompatible receiver, "+e+" required");return n}}}},function(e,t,n){var r=n(0),o=n(19),i=r.WeakMap;e.exports="function"==typeof i&&/native code/.test(o(i))},function(e,t,n){var r=n(12),o=n(21),i=r("keys");e.exports=function(e){return i[e]||(i[e]=o(e))}},function(e,t,n){var r=n(2),o=n(40),i=n(13),c=n(18);e.exports=function(e,t){for(var n=o(t),l=c.f,a=i.f,u=0;u<n.length;u++){var s=n[u];r(e,s)||l(e,s,a(t,s))}}},function(e,t,n){var r=n(23),o=n(42),i=n(47),c=n(3);e.exports=r("Reflect","ownKeys")||function(e){var t=o.f(c(e)),n=i.f;return n?t.concat(n(e)):t}},function(e,t,n){var r=n(0);e.exports=r},function(e,t,n){var r=n(43),o=n(46).concat("length","prototype");t.f=Object.getOwnPropertyNames||function(e){return r(e,o)}},function(e,t,n){var r=n(2),o=n(9),i=n(44).indexOf,c=n(22);e.exports=function(e,t){var n,l=o(e),a=0,u=[];for(n in l)!r(c,n)&&r(l,n)&&u.push(n);for(;t.length>a;)r(l,n=t[a++])&&(~i(u,n)||u.push(n));return u}},function(e,t,n){var r=n(9),o=n(24),i=n(45),c=function(e){return function(t,n,c){var l,a=r(t),u=o(a.length),s=i(c,u);if(e&&n!=n){for(;u>s;)if((l=a[s++])!=l)return!0}else for(;u>s;s++)if((e||s in a)&&a[s]===n)return e||s||0;return!e&&-1}};e.exports={includes:c(!0),indexOf:c(!1)}},function(e,t,n){var r=n(8),o=Math.max,i=Math.min;e.exports=function(e,t){var n=r(e);return n<0?o(n+t,0):i(n,t)}},function(e,t){e.exports=["constructor","hasOwnProperty","isPrototypeOf","propertyIsEnumerable","toLocaleString","toString","valueOf"]},function(e,t){t.f=Object.getOwnPropertySymbols},function(e,t,n){var r=n(1),o=/#|\.prototype\./,i=function(e,t){var n=l[c(e)];return n==u||n!=a&&("function"==typeof t?r(t):!!t)},c=i.normalize=function(e){return String(e).replace(o,".").toLowerCase()},l=i.data={},a=i.NATIVE="N",u=i.POLYFILL="P";e.exports=i},function(e,t,n){var r=n(0);e.exports=r.Promise},function(e,t,n){var r=n(3),o=n(25),i=n(26)("species");e.exports=function(e,t){var n,c=r(e).constructor;return void 0===c||null==(n=r(c)[i])?t:o(n)}},function(e,t,n){var r=n(27);e.exports=r&&!Symbol.sham&&"symbol"==typeof Symbol()},function(e,t,n){var r=n(3),o=n(4),i=n(53);e.exports=function(e,t){if(r(e),o(t)&&t.constructor===e)return t;var n=i.f(e);return(0,n.resolve)(t),n.promise}},function(e,t,n){"use strict";var r=n(25),o=function(e){var t,n;this.promise=new e((function(e,r){if(void 0!==t||void 0!==n)throw TypeError("Bad Promise constructor");t=e,n=r})),this.resolve=r(t),this.reject=r(n)};e.exports.f=function(e){return new o(e)}},function(e,t,n){"use strict";var r=n(55),o=n(3),i=n(57),c=n(24),l=n(8),a=n(7),u=n(58),s=n(60),f=Math.max,d=Math.min,p=Math.floor,v=/\$([$&'`]|\d\d?|<[^>]*>)/g,y=/\$([$&'`]|\d\d?)/g;r("replace",2,(function(e,t,n){return[function(n,r){var o=a(this),i=null==n?void 0:n[e];return void 0!==i?i.call(n,o,r):t.call(String(o),n,r)},function(e,i){var a=n(t,e,this,i);if(a.done)return a.value;var p=o(e),v=String(this),y="function"==typeof i;y||(i=String(i));var h=p.global;if(h){var m=p.unicode;p.lastIndex=0}for(var g=[];;){var x=s(p,v);if(null===x)break;if(g.push(x),!h)break;""===String(x[0])&&(p.lastIndex=u(v,c(p.lastIndex),m))}for(var b,S="",E=0,L=0;L<g.length;L++){x=g[L];for(var w=String(x[0]),q=f(d(l(x.index),v.length),0),k=[],A=1;A<x.length;A++)k.push(void 0===(b=x[A])?b:String(b));var O=x.groups;if(y){var j=[w].concat(k,q,v);void 0!==O&&j.push(O);var I=String(i.apply(void 0,j))}else I=r(w,v,q,k,O,i);q>=E&&(S+=v.slice(E,q)+I,E=q+w.length)}return S+v.slice(E)}];function r(e,n,r,o,c,l){var a=r+e.length,u=o.length,s=y;return void 0!==c&&(c=i(c),s=v),t.call(l,s,(function(t,i){var l;switch(i.charAt(0)){case"$":return"$";case"&":return e;case"`":return n.slice(0,r);case"'":return n.slice(a);case"<":l=c[i.slice(1,-1)];break;default:var s=+i;if(0===s)return t;if(s>u){var f=p(s/10);return 0===f?t:f<=u?void 0===o[f-1]?i.charAt(1):o[f-1]+i.charAt(1):t}l=o[s-1]}return void 0===l?"":l}))}}))},function(e,t,n){"use strict";var r=n(5),o=n(10),i=n(1),c=n(26),l=n(28),a=c("species"),u=!i((function(){var e=/./;return e.exec=function(){var e=[];return e.groups={a:"7"},e},"7"!=="".replace(e,"$<a>")})),s=!i((function(){var e=/(?:)/,t=e.exec;e.exec=function(){return t.apply(this,arguments)};var n="ab".split(e);return 2!==n.length||"a"!==n[0]||"b"!==n[1]}));e.exports=function(e,t,n,f){var d=c(e),p=!i((function(){var t={};return t[d]=function(){return 7},7!=""[e](t)})),v=p&&!i((function(){var t=!1,n=/a/;return"split"===e&&((n={}).constructor={},n.constructor[a]=function(){return n},n.flags="",n[d]=/./[d]),n.exec=function(){return t=!0,null},n[d](""),!t}));if(!p||!v||"replace"===e&&!u||"split"===e&&!s){var y=/./[d],h=n(d,""[e],(function(e,t,n,r,o){return t.exec===l?p&&!o?{done:!0,value:y.call(t,n,r)}:{done:!0,value:e.call(n,t,r)}:{done:!1}})),m=h[0],g=h[1];o(String.prototype,e,m),o(RegExp.prototype,d,2==t?function(e,t){return g.call(e,this,t)}:function(e){return g.call(e,this)}),f&&r(RegExp.prototype[d],"sham",!0)}}},function(e,t,n){"use strict";var r=n(3);e.exports=function(){var e=r(this),t="";return e.global&&(t+="g"),e.ignoreCase&&(t+="i"),e.multiline&&(t+="m"),e.dotAll&&(t+="s"),e.unicode&&(t+="u"),e.sticky&&(t+="y"),t}},function(e,t,n){var r=n(7);e.exports=function(e){return Object(r(e))}},function(e,t,n){"use strict";var r=n(59).charAt;e.exports=function(e,t,n){return t+(n?r(e,t).length:1)}},function(e,t,n){var r=n(8),o=n(7),i=function(e){return function(t,n){var i,c,l=String(o(t)),a=r(n),u=l.length;return a<0||a>=u?e?"":void 0:(i=l.charCodeAt(a))<55296||i>56319||a+1===u||(c=l.charCodeAt(a+1))<56320||c>57343?e?l.charAt(a):i:e?l.slice(a,a+2):c-56320+(i-55296<<10)+65536}};e.exports={codeAt:i(!1),charAt:i(!0)}},function(e,t,n){var r=n(15),o=n(28);e.exports=function(e,t){var n=e.exec;if("function"==typeof n){var i=n.call(e,t);if("object"!=typeof i)throw TypeError("RegExp exec method returned something other than an Object or null");return i}if("RegExp"!==r(e))throw TypeError("RegExp#exec called on incompatible receiver");return o.call(e,t)}},function(e,t,n){"use strict";n.r(t);var r=()=>{let e=!1;function t(t,r,o,i=!1){const c=document.querySelectorAll(t),l=document.querySelector(r),a=document.querySelector(o),u=document.querySelectorAll("[data-modal]"),s=n();c.forEach(t=>{t.addEventListener("click",n=>{n.target&&n.preventDefault(),e=!0,i&&(t.style.visibility="hidden"),document.querySelector(".fixed-gift").style.marginRight=".fixed-gift"!==t?`${s}px`:"0px",u.forEach(e=>{e.style.display="none",e.classList.add("animated","fadeInDown")}),l.style.display="block",document.body.style.overflow="hidden",document.body.style.marginRight=`${s}px`})}),a.addEventListener("click",()=>{u.forEach(e=>{e.style.display="none"}),l.style.display="none",document.body.style.overflow="",document.body.style.marginRight="0px",document.querySelector(".fixed-gift").style.marginRight="0px"}),l.addEventListener("click",e=>{e.target===l&&(u.forEach(e=>{e.style.display="none"}),l.style.display="none",document.body.style.overflow="",document.body.style.marginRight="0px",document.querySelector(".fixed-gift").style.marginRight="0px")})}function n(){let e=document.createElement("div");e.style.width="50px",e.style.height="50px",e.style.overflowY="scroll",e.style.visibility="hidden",document.body.appendChild(e);let t=e.offsetWidth-e.clientWidth;return e.remove(),t}t(".button-design",".popup-design",".popup-design .popup-close"),t(".button-consultation",".popup-consultation",".popup-consultation .popup-close"),t(".fixed-gift",".popup-gift",".popup-gift .popup-close",!0),function(t){window.addEventListener("scroll",()=>{let n=Math.max(document.documentElement.scrollHeight,document.body.scrollHeight);!e&&window.pageYOffset+document.documentElement.clientHeight>=n&&document.querySelector(t).click()})}(".fixed-gift"),function(e,t){setTimeout((function(){let t,r=n();document.querySelectorAll("[data-modal]").forEach(e=>{"none"!==getComputedStyle(e).display&&(t="block")}),t||(document.querySelector(e).style.display="block",document.body.style.overflow="hidden",document.body.style.marginRight=`${r}px`,document.querySelector(".fixed-gift").style.marginRight=`${r}px`)}),t)}(".popup-consultation",6e4)};var o=(e,t,n,r)=>{let o=1,i=!1;const c=document.querySelectorAll(e);function l(e){e>c.length&&(o=1),e<1&&(o=c.length),c.forEach(e=>{e.classList.add("animated"),e.style.display="none"}),c[o-1].style.display="block"}function a(e){l(o+=e)}l(o);try{const e=document.querySelector(n),t=document.querySelector(r);e.addEventListener("click",()=>{a(-1),c[o-1].classList.remove("fadeIn"),c[o-1].classList.add("fadeIn")}),t.addEventListener("click",()=>{a(1),c[o-1].classList.remove("fadeIn"),c[o-1].classList.add("fadeIn")})}catch(e){}function u(){i="vertical"===t?setInterval(()=>{a(1),c[o-1].classList.add("fadeInLeft")},4e3):setInterval(()=>{a(1),c[o-1].classList.remove("fadeIn"),c[o-1].classList.add("fadeIn")},5e3)}u(),c[0].parentNode.addEventListener("mouseenter",()=>{clearInterval(i)}),c[0].parentNode.addEventListener("mouseleave",()=>{u()})};n(29);var i=()=>{const e=document.querySelectorAll("form"),t=(document.querySelectorAll("input"),document.querySelectorAll('[name="upload"]')),n=document.querySelectorAll("#size"),r=document.querySelectorAll("#material"),o=document.querySelectorAll("#options"),i=document.querySelectorAll(".promocode"),c=document.querySelectorAll(".calc-price");let l={};const a="Загрузка...",u="Спасибо! Скоро мы с вами свяжемся",s="Что-то пошло не так...",f="assets/img/spinner.gif",d="assets/img/ok.png",p="assets/img/fail.png",v="assets/server.php",y="assets/question.php";function h(e,t,n){t.forEach(t=>{t.addEventListener(e,()=>{switch(t.nodeName){case"INPUT":case"SELECT":l[n]=t.value}console.log(l)})})}t.forEach(e=>{e.addEventListener("input",()=>{let t;const n=e.files[0].name.split(".");t=n[0].length>6?"...":".";const r=n[0].substring(0,6)+t+n[1];e.previousElementSibling.textContent=r})}),h("input",n,"optsizeion"),h("input",r,"material"),h("input",o,"options"),h("input",i,"promocode"),h("input",c,"result"),e.forEach(e=>{e.addEventListener("submit",n=>{n.preventDefault();let r=document.createElement("div");r.classList.add("status"),e.classList.add("animated","fadeOut"),setTimeout(()=>{e.style.display="none"},400);let o=document.createElement("img");o.setAttribute("src",f),o.classList.add("animated","fadeIn"),r.appendChild(o);let i=document.createElement("div");i.textContent=a,r.appendChild(i);const h=new FormData(e);let m;if((m=e.closest(".popup-design")||e.classList.contains("calc_form")?v:y)===v){for(let e in l)h.append(e,l[e]);h.append("total",c[0].textContent)}console.log(m),console.log(c[0].textContent),(async(e,t)=>{let n=await fetch(e,{method:"POST",body:t});return await n.text()})(m,h).then(t=>{console.log(t),o.setAttribute("src",d),i.textContent=u,setTimeout(()=>{e.parentNode.appendChild(r)},400)}).catch(()=>{o.setAttribute("src",p),i.textContent=s}).finally(()=>{t.forEach(e=>{e.previousElementSibling.textContent="Файл не выбран"}),setTimeout(()=>{r.remove(),e.style.display="block",e.classList.remove("fadeOut"),e.classList.add("fadeIn"),e.reset()},5e3),l={}})})})};n(54);var c=e=>{let t=(e,t)=>{if(t.focus(),t.setSelectionRange)t.setSelectionRange(e,e);else if(t.createTextRange){let n=t.createTextRange();n.collapse(!0),n.moveEnd("character",e),n.moveStart("character",e),n.select()}};function n(e){let n="+38 (___) ___ __ __",r=0,o=n.replace(/\D/g,""),i=this.value.replace(/\D/g,"");o.length>=i.length&&(i=o),this.value=n.replace(/./g,(function(e){return/[_\d]/.test(e)&&r<i.length?i.charAt(r++):r>=i.length?"":e})),"blur"===e.type?2==this.value.length&&(this.value=""):t(this.value.length,this)}document.querySelectorAll(e).forEach(e=>{e.addEventListener("input",n),e.addEventListener("focus",n),e.addEventListener("blur",n)})};var l=e=>{document.querySelectorAll(e).forEach(e=>{e.addEventListener("keypress",t=>{t.key.match(/[^а-яё 0-9]/gi)&&t.key.match(/[^а-яії 0-9]/gi)&&(t.preventDefault(),e.placeholder="Только латиница")})})};var a=(e,t)=>{document.querySelector(e).addEventListener("click",(function(){(async e=>{let t=await fetch(e);if(!t.ok)throw new Error(`Could not fetch ${e}, status ${t.status}`);return await t.json()})("assets/db.json").then(e=>(function(e){e.forEach(({src:e,title:n,link:r})=>{let o=document.createElement("div");o.classList.add("animated","fadeInUp","col-sm-3","col-sm-offset-0","col-xs-10","col-xs-offset-1"),o.innerHTML=`\n                <div class="styles-block">\n                    <img src=${e} alt="style">\n                    <h4>${n}</h4>\n                    <a href=${r}>Подробнее</a>\n                </div>\n            `,document.querySelector(t).appendChild(o)})})(e.styles)).catch(e=>console.log(e)),this.remove()}))};var u=(e,t,n,r,o)=>{const i=document.querySelector(e),c=document.querySelector(t),l=document.querySelector(n),a=document.querySelector(r),u=document.querySelector(o);let s=0;const f=()=>{s=Math.round(+i.value*+c.value+ +l.value),""==i.value||""==c.value?u.textContent="Пожалуйста, выберите размер и материал картины":"IWANTPOPART"===a.value?u.textContent=Math.round(.7*s+" грн"):u.textContent=s+" грн"};i.addEventListener("change",f),c.addEventListener("change",f),l.addEventListener("change",f),a.addEventListener("input",f)};var s=()=>{const e=document.querySelector(".portfolio-menu"),t=e.querySelectorAll("li"),n=e.querySelector(".all"),r=e.querySelector(".lovers"),o=e.querySelector(".chef"),i=e.querySelector(".girl"),c=e.querySelector(".guy"),l=e.querySelector(".grandmother"),a=e.querySelector(".granddad"),u=document.querySelector(".portfolio-wrapper"),s=u.querySelectorAll(".all"),f=u.querySelectorAll(".girl"),d=u.querySelectorAll(".lovers"),p=u.querySelectorAll(".chef"),v=u.querySelectorAll(".guy"),y=document.querySelector(".portfolio-no"),h=e=>{s.forEach(e=>{e.style.display="none",e.classList.remove("animated","fadeIn")}),y.style.display="none",y.classList.remove("animated","fadeIn"),e?e.forEach(e=>{e.style.display="block",e.classList.add("animated","fadeIn")}):(y.style.display="block",y.classList.add("animated","fadeIn"))};n.addEventListener("click",()=>{h(s)}),r.addEventListener("click",()=>{h(d)}),o.addEventListener("click",()=>{h(p)}),c.addEventListener("click",()=>{h(v)}),i.addEventListener("click",()=>{h(f)}),l.addEventListener("click",()=>{h()}),a.addEventListener("click",()=>{h()}),e.addEventListener("click",e=>{let n=e.target;n&&"LI"==n.tagName&&(t.forEach(e=>e.classList.remove("active")),n.classList.add("active"))})};var f=e=>{const t=document.querySelectorAll(e);t.forEach(e=>{e.addEventListener("mouseover",()=>{!function(e){const t=e.querySelector("img");t.src=t.src.slice(0,-4)+"-1.png",e.querySelectorAll("p:not(.sizes-hit)").forEach(e=>{e.style.display="none"})}(e)})}),t.forEach(e=>{e.addEventListener("mouseout",()=>{!function(e){const t=e.querySelector("img");t.src=t.src.slice(0,-6)+".png",e.querySelectorAll("p:not(.sizes-hit)").forEach(e=>{e.style.display="block"})}(e)})})};var d=e=>{const t=document.querySelectorAll(e);t.forEach(e=>{e.addEventListener("click",(function(){t.forEach(e=>{e.classList.remove("active-style"),e.nextElementSibling.classList.remove("active-content"),e.nextElementSibling.style.maxHeight="0px"}),this.classList.toggle("active-style"),this.nextElementSibling.classList.toggle("active-content"),this.classList.contains("active-style")?this.nextElementSibling.style.maxHeight=this.nextElementSibling.scrollHeight+80+"px":this.nextElementSibling.style.maxHeight="0px"}))})};var p=(e,t)=>{const n=document.querySelector(e),r=document.querySelector(t);n.style.display="none",r.addEventListener("click",()=>{"none"==n.style.display&&window.screen.availWidth<993?n.style.display="block":n.style.display="none"}),window.addEventListener("resize",()=>{window.screen.availWidth>992&&(n.style.display="none")})};window.addEventListener("DOMContentLoaded",()=>{r(),a(".button-styles","#styles .row"),o(".feedback-slider-item","horizontal",".main-prev-btn",".main-next-btn"),o(".main-slider-item","vertical"),i(),c('[name="phone"]'),l('[name="name"]'),l('[name="message"]'),u("#size","#material","#options",".promocode",".calc-price"),s(),f(".sizes-block"),d(".accordion-heading"),p(".burger-menu",".burger")})}]);
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/js/main.js");
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "./node_modules/core-js/internals/a-function.js":
+/*!******************************************************!*\
+  !*** ./node_modules/core-js/internals/a-function.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function (it) {
+  if (typeof it != 'function') {
+    throw TypeError(String(it) + ' is not a function');
+  } return it;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/advance-string-index.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/internals/advance-string-index.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var charAt = __webpack_require__(/*! ../internals/string-multibyte */ "./node_modules/core-js/internals/string-multibyte.js").charAt;
+
+// `AdvanceStringIndex` abstract operation
+// https://tc39.github.io/ecma262/#sec-advancestringindex
+module.exports = function (S, index, unicode) {
+  return index + (unicode ? charAt(S, index).length : 1);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/an-object.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/core-js/internals/an-object.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
+
+module.exports = function (it) {
+  if (!isObject(it)) {
+    throw TypeError(String(it) + ' is not an object');
+  } return it;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/array-includes.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/internals/array-includes.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var toIndexedObject = __webpack_require__(/*! ../internals/to-indexed-object */ "./node_modules/core-js/internals/to-indexed-object.js");
+var toLength = __webpack_require__(/*! ../internals/to-length */ "./node_modules/core-js/internals/to-length.js");
+var toAbsoluteIndex = __webpack_require__(/*! ../internals/to-absolute-index */ "./node_modules/core-js/internals/to-absolute-index.js");
+
+// `Array.prototype.{ indexOf, includes }` methods implementation
+var createMethod = function (IS_INCLUDES) {
+  return function ($this, el, fromIndex) {
+    var O = toIndexedObject($this);
+    var length = toLength(O.length);
+    var index = toAbsoluteIndex(fromIndex, length);
+    var value;
+    // Array#includes uses SameValueZero equality algorithm
+    // eslint-disable-next-line no-self-compare
+    if (IS_INCLUDES && el != el) while (length > index) {
+      value = O[index++];
+      // eslint-disable-next-line no-self-compare
+      if (value != value) return true;
+    // Array#indexOf ignores holes, Array#includes - not
+    } else for (;length > index; index++) {
+      if ((IS_INCLUDES || index in O) && O[index] === el) return IS_INCLUDES || index || 0;
+    } return !IS_INCLUDES && -1;
+  };
+};
+
+module.exports = {
+  // `Array.prototype.includes` method
+  // https://tc39.github.io/ecma262/#sec-array.prototype.includes
+  includes: createMethod(true),
+  // `Array.prototype.indexOf` method
+  // https://tc39.github.io/ecma262/#sec-array.prototype.indexof
+  indexOf: createMethod(false)
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/classof-raw.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/internals/classof-raw.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var toString = {}.toString;
+
+module.exports = function (it) {
+  return toString.call(it).slice(8, -1);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/copy-constructor-properties.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/core-js/internals/copy-constructor-properties.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var has = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
+var ownKeys = __webpack_require__(/*! ../internals/own-keys */ "./node_modules/core-js/internals/own-keys.js");
+var getOwnPropertyDescriptorModule = __webpack_require__(/*! ../internals/object-get-own-property-descriptor */ "./node_modules/core-js/internals/object-get-own-property-descriptor.js");
+var definePropertyModule = __webpack_require__(/*! ../internals/object-define-property */ "./node_modules/core-js/internals/object-define-property.js");
+
+module.exports = function (target, source) {
+  var keys = ownKeys(source);
+  var defineProperty = definePropertyModule.f;
+  var getOwnPropertyDescriptor = getOwnPropertyDescriptorModule.f;
+  for (var i = 0; i < keys.length; i++) {
+    var key = keys[i];
+    if (!has(target, key)) defineProperty(target, key, getOwnPropertyDescriptor(source, key));
+  }
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/create-non-enumerable-property.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/core-js/internals/create-non-enumerable-property.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "./node_modules/core-js/internals/descriptors.js");
+var definePropertyModule = __webpack_require__(/*! ../internals/object-define-property */ "./node_modules/core-js/internals/object-define-property.js");
+var createPropertyDescriptor = __webpack_require__(/*! ../internals/create-property-descriptor */ "./node_modules/core-js/internals/create-property-descriptor.js");
+
+module.exports = DESCRIPTORS ? function (object, key, value) {
+  return definePropertyModule.f(object, key, createPropertyDescriptor(1, value));
+} : function (object, key, value) {
+  object[key] = value;
+  return object;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/create-property-descriptor.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/core-js/internals/create-property-descriptor.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function (bitmap, value) {
+  return {
+    enumerable: !(bitmap & 1),
+    configurable: !(bitmap & 2),
+    writable: !(bitmap & 4),
+    value: value
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/descriptors.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/internals/descriptors.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+
+// Thank's IE8 for his funny defineProperty
+module.exports = !fails(function () {
+  return Object.defineProperty({}, 'a', { get: function () { return 7; } }).a != 7;
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/document-create-element.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/internals/document-create-element.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
+
+var document = global.document;
+// typeof document.createElement is 'object' in old IE
+var EXISTS = isObject(document) && isObject(document.createElement);
+
+module.exports = function (it) {
+  return EXISTS ? document.createElement(it) : {};
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/enum-bug-keys.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/internals/enum-bug-keys.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// IE8- don't enum bug keys
+module.exports = [
+  'constructor',
+  'hasOwnProperty',
+  'isPrototypeOf',
+  'propertyIsEnumerable',
+  'toLocaleString',
+  'toString',
+  'valueOf'
+];
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/export.js":
+/*!**************************************************!*\
+  !*** ./node_modules/core-js/internals/export.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var getOwnPropertyDescriptor = __webpack_require__(/*! ../internals/object-get-own-property-descriptor */ "./node_modules/core-js/internals/object-get-own-property-descriptor.js").f;
+var createNonEnumerableProperty = __webpack_require__(/*! ../internals/create-non-enumerable-property */ "./node_modules/core-js/internals/create-non-enumerable-property.js");
+var redefine = __webpack_require__(/*! ../internals/redefine */ "./node_modules/core-js/internals/redefine.js");
+var setGlobal = __webpack_require__(/*! ../internals/set-global */ "./node_modules/core-js/internals/set-global.js");
+var copyConstructorProperties = __webpack_require__(/*! ../internals/copy-constructor-properties */ "./node_modules/core-js/internals/copy-constructor-properties.js");
+var isForced = __webpack_require__(/*! ../internals/is-forced */ "./node_modules/core-js/internals/is-forced.js");
+
+/*
+  options.target      - name of the target object
+  options.global      - target is the global object
+  options.stat        - export as static methods of target
+  options.proto       - export as prototype methods of target
+  options.real        - real prototype method for the `pure` version
+  options.forced      - export even if the native feature is available
+  options.bind        - bind methods to the target, required for the `pure` version
+  options.wrap        - wrap constructors to preventing global pollution, required for the `pure` version
+  options.unsafe      - use the simple assignment of property instead of delete + defineProperty
+  options.sham        - add a flag to not completely full polyfills
+  options.enumerable  - export as enumerable property
+  options.noTargetGet - prevent calling a getter on target
+*/
+module.exports = function (options, source) {
+  var TARGET = options.target;
+  var GLOBAL = options.global;
+  var STATIC = options.stat;
+  var FORCED, target, key, targetProperty, sourceProperty, descriptor;
+  if (GLOBAL) {
+    target = global;
+  } else if (STATIC) {
+    target = global[TARGET] || setGlobal(TARGET, {});
+  } else {
+    target = (global[TARGET] || {}).prototype;
+  }
+  if (target) for (key in source) {
+    sourceProperty = source[key];
+    if (options.noTargetGet) {
+      descriptor = getOwnPropertyDescriptor(target, key);
+      targetProperty = descriptor && descriptor.value;
+    } else targetProperty = target[key];
+    FORCED = isForced(GLOBAL ? key : TARGET + (STATIC ? '.' : '#') + key, options.forced);
+    // contained in target
+    if (!FORCED && targetProperty !== undefined) {
+      if (typeof sourceProperty === typeof targetProperty) continue;
+      copyConstructorProperties(sourceProperty, targetProperty);
+    }
+    // add a flag to not completely full polyfills
+    if (options.sham || (targetProperty && targetProperty.sham)) {
+      createNonEnumerableProperty(sourceProperty, 'sham', true);
+    }
+    // extend global
+    redefine(target, key, sourceProperty, options);
+  }
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/fails.js":
+/*!*************************************************!*\
+  !*** ./node_modules/core-js/internals/fails.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function (exec) {
+  try {
+    return !!exec();
+  } catch (error) {
+    return true;
+  }
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/fix-regexp-well-known-symbol-logic.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/core-js/internals/fix-regexp-well-known-symbol-logic.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var createNonEnumerableProperty = __webpack_require__(/*! ../internals/create-non-enumerable-property */ "./node_modules/core-js/internals/create-non-enumerable-property.js");
+var redefine = __webpack_require__(/*! ../internals/redefine */ "./node_modules/core-js/internals/redefine.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+var regexpExec = __webpack_require__(/*! ../internals/regexp-exec */ "./node_modules/core-js/internals/regexp-exec.js");
+
+var SPECIES = wellKnownSymbol('species');
+
+var REPLACE_SUPPORTS_NAMED_GROUPS = !fails(function () {
+  // #replace needs built-in support for named groups.
+  // #match works fine because it just return the exec results, even if it has
+  // a "grops" property.
+  var re = /./;
+  re.exec = function () {
+    var result = [];
+    result.groups = { a: '7' };
+    return result;
+  };
+  return ''.replace(re, '$<a>') !== '7';
+});
+
+// Chrome 51 has a buggy "split" implementation when RegExp#exec !== nativeExec
+// Weex JS has frozen built-in prototypes, so use try / catch wrapper
+var SPLIT_WORKS_WITH_OVERWRITTEN_EXEC = !fails(function () {
+  var re = /(?:)/;
+  var originalExec = re.exec;
+  re.exec = function () { return originalExec.apply(this, arguments); };
+  var result = 'ab'.split(re);
+  return result.length !== 2 || result[0] !== 'a' || result[1] !== 'b';
+});
+
+module.exports = function (KEY, length, exec, sham) {
+  var SYMBOL = wellKnownSymbol(KEY);
+
+  var DELEGATES_TO_SYMBOL = !fails(function () {
+    // String methods call symbol-named RegEp methods
+    var O = {};
+    O[SYMBOL] = function () { return 7; };
+    return ''[KEY](O) != 7;
+  });
+
+  var DELEGATES_TO_EXEC = DELEGATES_TO_SYMBOL && !fails(function () {
+    // Symbol-named RegExp methods call .exec
+    var execCalled = false;
+    var re = /a/;
+
+    if (KEY === 'split') {
+      // We can't use real regex here since it causes deoptimization
+      // and serious performance degradation in V8
+      // https://github.com/zloirock/core-js/issues/306
+      re = {};
+      // RegExp[@@split] doesn't call the regex's exec method, but first creates
+      // a new one. We need to return the patched regex when creating the new one.
+      re.constructor = {};
+      re.constructor[SPECIES] = function () { return re; };
+      re.flags = '';
+      re[SYMBOL] = /./[SYMBOL];
+    }
+
+    re.exec = function () { execCalled = true; return null; };
+
+    re[SYMBOL]('');
+    return !execCalled;
+  });
+
+  if (
+    !DELEGATES_TO_SYMBOL ||
+    !DELEGATES_TO_EXEC ||
+    (KEY === 'replace' && !REPLACE_SUPPORTS_NAMED_GROUPS) ||
+    (KEY === 'split' && !SPLIT_WORKS_WITH_OVERWRITTEN_EXEC)
+  ) {
+    var nativeRegExpMethod = /./[SYMBOL];
+    var methods = exec(SYMBOL, ''[KEY], function (nativeMethod, regexp, str, arg2, forceStringMethod) {
+      if (regexp.exec === regexpExec) {
+        if (DELEGATES_TO_SYMBOL && !forceStringMethod) {
+          // The native String method already delegates to @@method (this
+          // polyfilled function), leasing to infinite recursion.
+          // We avoid it by directly calling the native @@method method.
+          return { done: true, value: nativeRegExpMethod.call(regexp, str, arg2) };
+        }
+        return { done: true, value: nativeMethod.call(str, regexp, arg2) };
+      }
+      return { done: false };
+    });
+    var stringMethod = methods[0];
+    var regexMethod = methods[1];
+
+    redefine(String.prototype, KEY, stringMethod);
+    redefine(RegExp.prototype, SYMBOL, length == 2
+      // 21.2.5.8 RegExp.prototype[@@replace](string, replaceValue)
+      // 21.2.5.11 RegExp.prototype[@@split](string, limit)
+      ? function (string, arg) { return regexMethod.call(string, this, arg); }
+      // 21.2.5.6 RegExp.prototype[@@match](string)
+      // 21.2.5.9 RegExp.prototype[@@search](string)
+      : function (string) { return regexMethod.call(string, this); }
+    );
+    if (sham) createNonEnumerableProperty(RegExp.prototype[SYMBOL], 'sham', true);
+  }
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/get-built-in.js":
+/*!********************************************************!*\
+  !*** ./node_modules/core-js/internals/get-built-in.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var path = __webpack_require__(/*! ../internals/path */ "./node_modules/core-js/internals/path.js");
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+
+var aFunction = function (variable) {
+  return typeof variable == 'function' ? variable : undefined;
+};
+
+module.exports = function (namespace, method) {
+  return arguments.length < 2 ? aFunction(path[namespace]) || aFunction(global[namespace])
+    : path[namespace] && path[namespace][method] || global[namespace] && global[namespace][method];
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/global.js":
+/*!**************************************************!*\
+  !*** ./node_modules/core-js/internals/global.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {var check = function (it) {
+  return it && it.Math == Math && it;
+};
+
+// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
+module.exports =
+  // eslint-disable-next-line no-undef
+  check(typeof globalThis == 'object' && globalThis) ||
+  check(typeof window == 'object' && window) ||
+  check(typeof self == 'object' && self) ||
+  check(typeof global == 'object' && global) ||
+  // eslint-disable-next-line no-new-func
+  Function('return this')();
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/has.js":
+/*!***********************************************!*\
+  !*** ./node_modules/core-js/internals/has.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var hasOwnProperty = {}.hasOwnProperty;
+
+module.exports = function (it, key) {
+  return hasOwnProperty.call(it, key);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/hidden-keys.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/internals/hidden-keys.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/ie8-dom-define.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/internals/ie8-dom-define.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "./node_modules/core-js/internals/descriptors.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var createElement = __webpack_require__(/*! ../internals/document-create-element */ "./node_modules/core-js/internals/document-create-element.js");
+
+// Thank's IE8 for his funny defineProperty
+module.exports = !DESCRIPTORS && !fails(function () {
+  return Object.defineProperty(createElement('div'), 'a', {
+    get: function () { return 7; }
+  }).a != 7;
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/indexed-object.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/internals/indexed-object.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var classof = __webpack_require__(/*! ../internals/classof-raw */ "./node_modules/core-js/internals/classof-raw.js");
+
+var split = ''.split;
+
+// fallback for non-array-like ES3 and non-enumerable old V8 strings
+module.exports = fails(function () {
+  // throws an error in rhino, see https://github.com/mozilla/rhino/issues/346
+  // eslint-disable-next-line no-prototype-builtins
+  return !Object('z').propertyIsEnumerable(0);
+}) ? function (it) {
+  return classof(it) == 'String' ? split.call(it, '') : Object(it);
+} : Object;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/inspect-source.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/internals/inspect-source.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var shared = __webpack_require__(/*! ../internals/shared */ "./node_modules/core-js/internals/shared.js");
+
+var functionToString = Function.toString;
+
+module.exports = shared('inspectSource', function (it) {
+  return functionToString.call(it);
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/internal-state.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/internals/internal-state.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var NATIVE_WEAK_MAP = __webpack_require__(/*! ../internals/native-weak-map */ "./node_modules/core-js/internals/native-weak-map.js");
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
+var createNonEnumerableProperty = __webpack_require__(/*! ../internals/create-non-enumerable-property */ "./node_modules/core-js/internals/create-non-enumerable-property.js");
+var objectHas = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
+var sharedKey = __webpack_require__(/*! ../internals/shared-key */ "./node_modules/core-js/internals/shared-key.js");
+var hiddenKeys = __webpack_require__(/*! ../internals/hidden-keys */ "./node_modules/core-js/internals/hidden-keys.js");
+
+var WeakMap = global.WeakMap;
+var set, get, has;
+
+var enforce = function (it) {
+  return has(it) ? get(it) : set(it, {});
+};
+
+var getterFor = function (TYPE) {
+  return function (it) {
+    var state;
+    if (!isObject(it) || (state = get(it)).type !== TYPE) {
+      throw TypeError('Incompatible receiver, ' + TYPE + ' required');
+    } return state;
+  };
+};
+
+if (NATIVE_WEAK_MAP) {
+  var store = new WeakMap();
+  var wmget = store.get;
+  var wmhas = store.has;
+  var wmset = store.set;
+  set = function (it, metadata) {
+    wmset.call(store, it, metadata);
+    return metadata;
+  };
+  get = function (it) {
+    return wmget.call(store, it) || {};
+  };
+  has = function (it) {
+    return wmhas.call(store, it);
+  };
+} else {
+  var STATE = sharedKey('state');
+  hiddenKeys[STATE] = true;
+  set = function (it, metadata) {
+    createNonEnumerableProperty(it, STATE, metadata);
+    return metadata;
+  };
+  get = function (it) {
+    return objectHas(it, STATE) ? it[STATE] : {};
+  };
+  has = function (it) {
+    return objectHas(it, STATE);
+  };
+}
+
+module.exports = {
+  set: set,
+  get: get,
+  has: has,
+  enforce: enforce,
+  getterFor: getterFor
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/is-forced.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/core-js/internals/is-forced.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+
+var replacement = /#|\.prototype\./;
+
+var isForced = function (feature, detection) {
+  var value = data[normalize(feature)];
+  return value == POLYFILL ? true
+    : value == NATIVE ? false
+    : typeof detection == 'function' ? fails(detection)
+    : !!detection;
+};
+
+var normalize = isForced.normalize = function (string) {
+  return String(string).replace(replacement, '.').toLowerCase();
+};
+
+var data = isForced.data = {};
+var NATIVE = isForced.NATIVE = 'N';
+var POLYFILL = isForced.POLYFILL = 'P';
+
+module.exports = isForced;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/is-object.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/core-js/internals/is-object.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function (it) {
+  return typeof it === 'object' ? it !== null : typeof it === 'function';
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/is-pure.js":
+/*!***************************************************!*\
+  !*** ./node_modules/core-js/internals/is-pure.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = false;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/native-promise-constructor.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/core-js/internals/native-promise-constructor.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+
+module.exports = global.Promise;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/native-symbol.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/internals/native-symbol.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+
+module.exports = !!Object.getOwnPropertySymbols && !fails(function () {
+  // Chrome 38 Symbol has incorrect toString conversion
+  // eslint-disable-next-line no-undef
+  return !String(Symbol());
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/native-weak-map.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/internals/native-weak-map.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var inspectSource = __webpack_require__(/*! ../internals/inspect-source */ "./node_modules/core-js/internals/inspect-source.js");
+
+var WeakMap = global.WeakMap;
+
+module.exports = typeof WeakMap === 'function' && /native code/.test(inspectSource(WeakMap));
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/new-promise-capability.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/internals/new-promise-capability.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var aFunction = __webpack_require__(/*! ../internals/a-function */ "./node_modules/core-js/internals/a-function.js");
+
+var PromiseCapability = function (C) {
+  var resolve, reject;
+  this.promise = new C(function ($$resolve, $$reject) {
+    if (resolve !== undefined || reject !== undefined) throw TypeError('Bad Promise constructor');
+    resolve = $$resolve;
+    reject = $$reject;
+  });
+  this.resolve = aFunction(resolve);
+  this.reject = aFunction(reject);
+};
+
+// 25.4.1.5 NewPromiseCapability(C)
+module.exports.f = function (C) {
+  return new PromiseCapability(C);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/object-define-property.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/internals/object-define-property.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "./node_modules/core-js/internals/descriptors.js");
+var IE8_DOM_DEFINE = __webpack_require__(/*! ../internals/ie8-dom-define */ "./node_modules/core-js/internals/ie8-dom-define.js");
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var toPrimitive = __webpack_require__(/*! ../internals/to-primitive */ "./node_modules/core-js/internals/to-primitive.js");
+
+var nativeDefineProperty = Object.defineProperty;
+
+// `Object.defineProperty` method
+// https://tc39.github.io/ecma262/#sec-object.defineproperty
+exports.f = DESCRIPTORS ? nativeDefineProperty : function defineProperty(O, P, Attributes) {
+  anObject(O);
+  P = toPrimitive(P, true);
+  anObject(Attributes);
+  if (IE8_DOM_DEFINE) try {
+    return nativeDefineProperty(O, P, Attributes);
+  } catch (error) { /* empty */ }
+  if ('get' in Attributes || 'set' in Attributes) throw TypeError('Accessors not supported');
+  if ('value' in Attributes) O[P] = Attributes.value;
+  return O;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/object-get-own-property-descriptor.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/core-js/internals/object-get-own-property-descriptor.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "./node_modules/core-js/internals/descriptors.js");
+var propertyIsEnumerableModule = __webpack_require__(/*! ../internals/object-property-is-enumerable */ "./node_modules/core-js/internals/object-property-is-enumerable.js");
+var createPropertyDescriptor = __webpack_require__(/*! ../internals/create-property-descriptor */ "./node_modules/core-js/internals/create-property-descriptor.js");
+var toIndexedObject = __webpack_require__(/*! ../internals/to-indexed-object */ "./node_modules/core-js/internals/to-indexed-object.js");
+var toPrimitive = __webpack_require__(/*! ../internals/to-primitive */ "./node_modules/core-js/internals/to-primitive.js");
+var has = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
+var IE8_DOM_DEFINE = __webpack_require__(/*! ../internals/ie8-dom-define */ "./node_modules/core-js/internals/ie8-dom-define.js");
+
+var nativeGetOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+
+// `Object.getOwnPropertyDescriptor` method
+// https://tc39.github.io/ecma262/#sec-object.getownpropertydescriptor
+exports.f = DESCRIPTORS ? nativeGetOwnPropertyDescriptor : function getOwnPropertyDescriptor(O, P) {
+  O = toIndexedObject(O);
+  P = toPrimitive(P, true);
+  if (IE8_DOM_DEFINE) try {
+    return nativeGetOwnPropertyDescriptor(O, P);
+  } catch (error) { /* empty */ }
+  if (has(O, P)) return createPropertyDescriptor(!propertyIsEnumerableModule.f.call(O, P), O[P]);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/object-get-own-property-names.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/core-js/internals/object-get-own-property-names.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var internalObjectKeys = __webpack_require__(/*! ../internals/object-keys-internal */ "./node_modules/core-js/internals/object-keys-internal.js");
+var enumBugKeys = __webpack_require__(/*! ../internals/enum-bug-keys */ "./node_modules/core-js/internals/enum-bug-keys.js");
+
+var hiddenKeys = enumBugKeys.concat('length', 'prototype');
+
+// `Object.getOwnPropertyNames` method
+// https://tc39.github.io/ecma262/#sec-object.getownpropertynames
+exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
+  return internalObjectKeys(O, hiddenKeys);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/object-get-own-property-symbols.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/core-js/internals/object-get-own-property-symbols.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+exports.f = Object.getOwnPropertySymbols;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/object-keys-internal.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/internals/object-keys-internal.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var has = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
+var toIndexedObject = __webpack_require__(/*! ../internals/to-indexed-object */ "./node_modules/core-js/internals/to-indexed-object.js");
+var indexOf = __webpack_require__(/*! ../internals/array-includes */ "./node_modules/core-js/internals/array-includes.js").indexOf;
+var hiddenKeys = __webpack_require__(/*! ../internals/hidden-keys */ "./node_modules/core-js/internals/hidden-keys.js");
+
+module.exports = function (object, names) {
+  var O = toIndexedObject(object);
+  var i = 0;
+  var result = [];
+  var key;
+  for (key in O) !has(hiddenKeys, key) && has(O, key) && result.push(key);
+  // Don't enum bug & hidden keys
+  while (names.length > i) if (has(O, key = names[i++])) {
+    ~indexOf(result, key) || result.push(key);
+  }
+  return result;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/object-property-is-enumerable.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/core-js/internals/object-property-is-enumerable.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var nativePropertyIsEnumerable = {}.propertyIsEnumerable;
+var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+
+// Nashorn ~ JDK8 bug
+var NASHORN_BUG = getOwnPropertyDescriptor && !nativePropertyIsEnumerable.call({ 1: 2 }, 1);
+
+// `Object.prototype.propertyIsEnumerable` method implementation
+// https://tc39.github.io/ecma262/#sec-object.prototype.propertyisenumerable
+exports.f = NASHORN_BUG ? function propertyIsEnumerable(V) {
+  var descriptor = getOwnPropertyDescriptor(this, V);
+  return !!descriptor && descriptor.enumerable;
+} : nativePropertyIsEnumerable;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/own-keys.js":
+/*!****************************************************!*\
+  !*** ./node_modules/core-js/internals/own-keys.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var getBuiltIn = __webpack_require__(/*! ../internals/get-built-in */ "./node_modules/core-js/internals/get-built-in.js");
+var getOwnPropertyNamesModule = __webpack_require__(/*! ../internals/object-get-own-property-names */ "./node_modules/core-js/internals/object-get-own-property-names.js");
+var getOwnPropertySymbolsModule = __webpack_require__(/*! ../internals/object-get-own-property-symbols */ "./node_modules/core-js/internals/object-get-own-property-symbols.js");
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+
+// all object keys, includes non-enumerable and symbols
+module.exports = getBuiltIn('Reflect', 'ownKeys') || function ownKeys(it) {
+  var keys = getOwnPropertyNamesModule.f(anObject(it));
+  var getOwnPropertySymbols = getOwnPropertySymbolsModule.f;
+  return getOwnPropertySymbols ? keys.concat(getOwnPropertySymbols(it)) : keys;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/path.js":
+/*!************************************************!*\
+  !*** ./node_modules/core-js/internals/path.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+
+module.exports = global;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/promise-resolve.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/internals/promise-resolve.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
+var newPromiseCapability = __webpack_require__(/*! ../internals/new-promise-capability */ "./node_modules/core-js/internals/new-promise-capability.js");
+
+module.exports = function (C, x) {
+  anObject(C);
+  if (isObject(x) && x.constructor === C) return x;
+  var promiseCapability = newPromiseCapability.f(C);
+  var resolve = promiseCapability.resolve;
+  resolve(x);
+  return promiseCapability.promise;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/redefine.js":
+/*!****************************************************!*\
+  !*** ./node_modules/core-js/internals/redefine.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var createNonEnumerableProperty = __webpack_require__(/*! ../internals/create-non-enumerable-property */ "./node_modules/core-js/internals/create-non-enumerable-property.js");
+var has = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
+var setGlobal = __webpack_require__(/*! ../internals/set-global */ "./node_modules/core-js/internals/set-global.js");
+var inspectSource = __webpack_require__(/*! ../internals/inspect-source */ "./node_modules/core-js/internals/inspect-source.js");
+var InternalStateModule = __webpack_require__(/*! ../internals/internal-state */ "./node_modules/core-js/internals/internal-state.js");
+
+var getInternalState = InternalStateModule.get;
+var enforceInternalState = InternalStateModule.enforce;
+var TEMPLATE = String(String).split('String');
+
+(module.exports = function (O, key, value, options) {
+  var unsafe = options ? !!options.unsafe : false;
+  var simple = options ? !!options.enumerable : false;
+  var noTargetGet = options ? !!options.noTargetGet : false;
+  if (typeof value == 'function') {
+    if (typeof key == 'string' && !has(value, 'name')) createNonEnumerableProperty(value, 'name', key);
+    enforceInternalState(value).source = TEMPLATE.join(typeof key == 'string' ? key : '');
+  }
+  if (O === global) {
+    if (simple) O[key] = value;
+    else setGlobal(key, value);
+    return;
+  } else if (!unsafe) {
+    delete O[key];
+  } else if (!noTargetGet && O[key]) {
+    simple = true;
+  }
+  if (simple) O[key] = value;
+  else createNonEnumerableProperty(O, key, value);
+// add fake Function#toString for correct work wrapped methods / constructors with methods like LoDash isNative
+})(Function.prototype, 'toString', function toString() {
+  return typeof this == 'function' && getInternalState(this).source || inspectSource(this);
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/regexp-exec-abstract.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/internals/regexp-exec-abstract.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var classof = __webpack_require__(/*! ./classof-raw */ "./node_modules/core-js/internals/classof-raw.js");
+var regexpExec = __webpack_require__(/*! ./regexp-exec */ "./node_modules/core-js/internals/regexp-exec.js");
+
+// `RegExpExec` abstract operation
+// https://tc39.github.io/ecma262/#sec-regexpexec
+module.exports = function (R, S) {
+  var exec = R.exec;
+  if (typeof exec === 'function') {
+    var result = exec.call(R, S);
+    if (typeof result !== 'object') {
+      throw TypeError('RegExp exec method returned something other than an Object or null');
+    }
+    return result;
+  }
+
+  if (classof(R) !== 'RegExp') {
+    throw TypeError('RegExp#exec called on incompatible receiver');
+  }
+
+  return regexpExec.call(R, S);
+};
+
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/regexp-exec.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/internals/regexp-exec.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var regexpFlags = __webpack_require__(/*! ./regexp-flags */ "./node_modules/core-js/internals/regexp-flags.js");
+
+var nativeExec = RegExp.prototype.exec;
+// This always refers to the native implementation, because the
+// String#replace polyfill uses ./fix-regexp-well-known-symbol-logic.js,
+// which loads this file before patching the method.
+var nativeReplace = String.prototype.replace;
+
+var patchedExec = nativeExec;
+
+var UPDATES_LAST_INDEX_WRONG = (function () {
+  var re1 = /a/;
+  var re2 = /b*/g;
+  nativeExec.call(re1, 'a');
+  nativeExec.call(re2, 'a');
+  return re1.lastIndex !== 0 || re2.lastIndex !== 0;
+})();
+
+// nonparticipating capturing group, copied from es5-shim's String#split patch.
+var NPCG_INCLUDED = /()??/.exec('')[1] !== undefined;
+
+var PATCH = UPDATES_LAST_INDEX_WRONG || NPCG_INCLUDED;
+
+if (PATCH) {
+  patchedExec = function exec(str) {
+    var re = this;
+    var lastIndex, reCopy, match, i;
+
+    if (NPCG_INCLUDED) {
+      reCopy = new RegExp('^' + re.source + '$(?!\\s)', regexpFlags.call(re));
+    }
+    if (UPDATES_LAST_INDEX_WRONG) lastIndex = re.lastIndex;
+
+    match = nativeExec.call(re, str);
+
+    if (UPDATES_LAST_INDEX_WRONG && match) {
+      re.lastIndex = re.global ? match.index + match[0].length : lastIndex;
+    }
+    if (NPCG_INCLUDED && match && match.length > 1) {
+      // Fix browsers whose `exec` methods don't consistently return `undefined`
+      // for NPCG, like IE8. NOTE: This doesn' work for /(.?)?/
+      nativeReplace.call(match[0], reCopy, function () {
+        for (i = 1; i < arguments.length - 2; i++) {
+          if (arguments[i] === undefined) match[i] = undefined;
+        }
+      });
+    }
+
+    return match;
+  };
+}
+
+module.exports = patchedExec;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/regexp-flags.js":
+/*!********************************************************!*\
+  !*** ./node_modules/core-js/internals/regexp-flags.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+
+// `RegExp.prototype.flags` getter implementation
+// https://tc39.github.io/ecma262/#sec-get-regexp.prototype.flags
+module.exports = function () {
+  var that = anObject(this);
+  var result = '';
+  if (that.global) result += 'g';
+  if (that.ignoreCase) result += 'i';
+  if (that.multiline) result += 'm';
+  if (that.dotAll) result += 's';
+  if (that.unicode) result += 'u';
+  if (that.sticky) result += 'y';
+  return result;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/require-object-coercible.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/internals/require-object-coercible.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// `RequireObjectCoercible` abstract operation
+// https://tc39.github.io/ecma262/#sec-requireobjectcoercible
+module.exports = function (it) {
+  if (it == undefined) throw TypeError("Can't call method on " + it);
+  return it;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/set-global.js":
+/*!******************************************************!*\
+  !*** ./node_modules/core-js/internals/set-global.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var createNonEnumerableProperty = __webpack_require__(/*! ../internals/create-non-enumerable-property */ "./node_modules/core-js/internals/create-non-enumerable-property.js");
+
+module.exports = function (key, value) {
+  try {
+    createNonEnumerableProperty(global, key, value);
+  } catch (error) {
+    global[key] = value;
+  } return value;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/shared-key.js":
+/*!******************************************************!*\
+  !*** ./node_modules/core-js/internals/shared-key.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var shared = __webpack_require__(/*! ../internals/shared */ "./node_modules/core-js/internals/shared.js");
+var uid = __webpack_require__(/*! ../internals/uid */ "./node_modules/core-js/internals/uid.js");
+
+var keys = shared('keys');
+
+module.exports = function (key) {
+  return keys[key] || (keys[key] = uid(key));
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/shared-store.js":
+/*!********************************************************!*\
+  !*** ./node_modules/core-js/internals/shared-store.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var setGlobal = __webpack_require__(/*! ../internals/set-global */ "./node_modules/core-js/internals/set-global.js");
+
+var SHARED = '__core-js_shared__';
+var store = global[SHARED] || setGlobal(SHARED, {});
+
+module.exports = store;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/shared.js":
+/*!**************************************************!*\
+  !*** ./node_modules/core-js/internals/shared.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "./node_modules/core-js/internals/is-pure.js");
+var store = __webpack_require__(/*! ../internals/shared-store */ "./node_modules/core-js/internals/shared-store.js");
+
+(module.exports = function (key, value) {
+  return store[key] || (store[key] = value !== undefined ? value : {});
+})('versions', []).push({
+  version: '3.4.5',
+  mode: IS_PURE ? 'pure' : 'global',
+  copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/species-constructor.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/core-js/internals/species-constructor.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var aFunction = __webpack_require__(/*! ../internals/a-function */ "./node_modules/core-js/internals/a-function.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+
+var SPECIES = wellKnownSymbol('species');
+
+// `SpeciesConstructor` abstract operation
+// https://tc39.github.io/ecma262/#sec-speciesconstructor
+module.exports = function (O, defaultConstructor) {
+  var C = anObject(O).constructor;
+  var S;
+  return C === undefined || (S = anObject(C)[SPECIES]) == undefined ? defaultConstructor : aFunction(S);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/string-multibyte.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/internals/string-multibyte.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var toInteger = __webpack_require__(/*! ../internals/to-integer */ "./node_modules/core-js/internals/to-integer.js");
+var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object-coercible */ "./node_modules/core-js/internals/require-object-coercible.js");
+
+// `String.prototype.{ codePointAt, at }` methods implementation
+var createMethod = function (CONVERT_TO_STRING) {
+  return function ($this, pos) {
+    var S = String(requireObjectCoercible($this));
+    var position = toInteger(pos);
+    var size = S.length;
+    var first, second;
+    if (position < 0 || position >= size) return CONVERT_TO_STRING ? '' : undefined;
+    first = S.charCodeAt(position);
+    return first < 0xD800 || first > 0xDBFF || position + 1 === size
+      || (second = S.charCodeAt(position + 1)) < 0xDC00 || second > 0xDFFF
+        ? CONVERT_TO_STRING ? S.charAt(position) : first
+        : CONVERT_TO_STRING ? S.slice(position, position + 2) : (first - 0xD800 << 10) + (second - 0xDC00) + 0x10000;
+  };
+};
+
+module.exports = {
+  // `String.prototype.codePointAt` method
+  // https://tc39.github.io/ecma262/#sec-string.prototype.codepointat
+  codeAt: createMethod(false),
+  // `String.prototype.at` method
+  // https://github.com/mathiasbynens/String.prototype.at
+  charAt: createMethod(true)
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/to-absolute-index.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/internals/to-absolute-index.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var toInteger = __webpack_require__(/*! ../internals/to-integer */ "./node_modules/core-js/internals/to-integer.js");
+
+var max = Math.max;
+var min = Math.min;
+
+// Helper for a popular repeating case of the spec:
+// Let integer be ? ToInteger(index).
+// If integer < 0, let result be max((length + integer), 0); else let result be min(integer, length).
+module.exports = function (index, length) {
+  var integer = toInteger(index);
+  return integer < 0 ? max(integer + length, 0) : min(integer, length);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/to-indexed-object.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/internals/to-indexed-object.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// toObject with fallback for non-array-like ES3 strings
+var IndexedObject = __webpack_require__(/*! ../internals/indexed-object */ "./node_modules/core-js/internals/indexed-object.js");
+var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object-coercible */ "./node_modules/core-js/internals/require-object-coercible.js");
+
+module.exports = function (it) {
+  return IndexedObject(requireObjectCoercible(it));
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/to-integer.js":
+/*!******************************************************!*\
+  !*** ./node_modules/core-js/internals/to-integer.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var ceil = Math.ceil;
+var floor = Math.floor;
+
+// `ToInteger` abstract operation
+// https://tc39.github.io/ecma262/#sec-tointeger
+module.exports = function (argument) {
+  return isNaN(argument = +argument) ? 0 : (argument > 0 ? floor : ceil)(argument);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/to-length.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/core-js/internals/to-length.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var toInteger = __webpack_require__(/*! ../internals/to-integer */ "./node_modules/core-js/internals/to-integer.js");
+
+var min = Math.min;
+
+// `ToLength` abstract operation
+// https://tc39.github.io/ecma262/#sec-tolength
+module.exports = function (argument) {
+  return argument > 0 ? min(toInteger(argument), 0x1FFFFFFFFFFFFF) : 0; // 2 ** 53 - 1 == 9007199254740991
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/to-object.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/core-js/internals/to-object.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object-coercible */ "./node_modules/core-js/internals/require-object-coercible.js");
+
+// `ToObject` abstract operation
+// https://tc39.github.io/ecma262/#sec-toobject
+module.exports = function (argument) {
+  return Object(requireObjectCoercible(argument));
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/to-primitive.js":
+/*!********************************************************!*\
+  !*** ./node_modules/core-js/internals/to-primitive.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
+
+// `ToPrimitive` abstract operation
+// https://tc39.github.io/ecma262/#sec-toprimitive
+// instead of the ES6 spec version, we didn't implement @@toPrimitive case
+// and the second argument - flag - preferred type is a string
+module.exports = function (input, PREFERRED_STRING) {
+  if (!isObject(input)) return input;
+  var fn, val;
+  if (PREFERRED_STRING && typeof (fn = input.toString) == 'function' && !isObject(val = fn.call(input))) return val;
+  if (typeof (fn = input.valueOf) == 'function' && !isObject(val = fn.call(input))) return val;
+  if (!PREFERRED_STRING && typeof (fn = input.toString) == 'function' && !isObject(val = fn.call(input))) return val;
+  throw TypeError("Can't convert object to primitive value");
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/uid.js":
+/*!***********************************************!*\
+  !*** ./node_modules/core-js/internals/uid.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var id = 0;
+var postfix = Math.random();
+
+module.exports = function (key) {
+  return 'Symbol(' + String(key === undefined ? '' : key) + ')_' + (++id + postfix).toString(36);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/use-symbol-as-uid.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/internals/use-symbol-as-uid.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var NATIVE_SYMBOL = __webpack_require__(/*! ../internals/native-symbol */ "./node_modules/core-js/internals/native-symbol.js");
+
+module.exports = NATIVE_SYMBOL
+  // eslint-disable-next-line no-undef
+  && !Symbol.sham
+  // eslint-disable-next-line no-undef
+  && typeof Symbol() == 'symbol';
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/well-known-symbol.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/internals/well-known-symbol.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var shared = __webpack_require__(/*! ../internals/shared */ "./node_modules/core-js/internals/shared.js");
+var has = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
+var uid = __webpack_require__(/*! ../internals/uid */ "./node_modules/core-js/internals/uid.js");
+var NATIVE_SYMBOL = __webpack_require__(/*! ../internals/native-symbol */ "./node_modules/core-js/internals/native-symbol.js");
+var USE_SYMBOL_AS_UID = __webpack_require__(/*! ../internals/use-symbol-as-uid */ "./node_modules/core-js/internals/use-symbol-as-uid.js");
+
+var WellKnownSymbolsStore = shared('wks');
+var Symbol = global.Symbol;
+var createWellKnownSymbol = USE_SYMBOL_AS_UID ? Symbol : uid;
+
+module.exports = function (name) {
+  if (!has(WellKnownSymbolsStore, name)) {
+    if (NATIVE_SYMBOL && has(Symbol, name)) WellKnownSymbolsStore[name] = Symbol[name];
+    else WellKnownSymbolsStore[name] = createWellKnownSymbol('Symbol.' + name);
+  } return WellKnownSymbolsStore[name];
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.promise.finally.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/modules/es.promise.finally.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "./node_modules/core-js/internals/is-pure.js");
+var NativePromise = __webpack_require__(/*! ../internals/native-promise-constructor */ "./node_modules/core-js/internals/native-promise-constructor.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var getBuiltIn = __webpack_require__(/*! ../internals/get-built-in */ "./node_modules/core-js/internals/get-built-in.js");
+var speciesConstructor = __webpack_require__(/*! ../internals/species-constructor */ "./node_modules/core-js/internals/species-constructor.js");
+var promiseResolve = __webpack_require__(/*! ../internals/promise-resolve */ "./node_modules/core-js/internals/promise-resolve.js");
+var redefine = __webpack_require__(/*! ../internals/redefine */ "./node_modules/core-js/internals/redefine.js");
+
+// Safari bug https://bugs.webkit.org/show_bug.cgi?id=200829
+var NON_GENERIC = !!NativePromise && fails(function () {
+  NativePromise.prototype['finally'].call({ then: function () { /* empty */ } }, function () { /* empty */ });
+});
+
+// `Promise.prototype.finally` method
+// https://tc39.github.io/ecma262/#sec-promise.prototype.finally
+$({ target: 'Promise', proto: true, real: true, forced: NON_GENERIC }, {
+  'finally': function (onFinally) {
+    var C = speciesConstructor(this, getBuiltIn('Promise'));
+    var isFunction = typeof onFinally == 'function';
+    return this.then(
+      isFunction ? function (x) {
+        return promiseResolve(C, onFinally()).then(function () { return x; });
+      } : onFinally,
+      isFunction ? function (e) {
+        return promiseResolve(C, onFinally()).then(function () { throw e; });
+      } : onFinally
+    );
+  }
+});
+
+// patch native Promise.prototype for native async functions
+if (!IS_PURE && typeof NativePromise == 'function' && !NativePromise.prototype['finally']) {
+  redefine(NativePromise.prototype, 'finally', getBuiltIn('Promise').prototype['finally']);
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.string.replace.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/modules/es.string.replace.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var fixRegExpWellKnownSymbolLogic = __webpack_require__(/*! ../internals/fix-regexp-well-known-symbol-logic */ "./node_modules/core-js/internals/fix-regexp-well-known-symbol-logic.js");
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var toObject = __webpack_require__(/*! ../internals/to-object */ "./node_modules/core-js/internals/to-object.js");
+var toLength = __webpack_require__(/*! ../internals/to-length */ "./node_modules/core-js/internals/to-length.js");
+var toInteger = __webpack_require__(/*! ../internals/to-integer */ "./node_modules/core-js/internals/to-integer.js");
+var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object-coercible */ "./node_modules/core-js/internals/require-object-coercible.js");
+var advanceStringIndex = __webpack_require__(/*! ../internals/advance-string-index */ "./node_modules/core-js/internals/advance-string-index.js");
+var regExpExec = __webpack_require__(/*! ../internals/regexp-exec-abstract */ "./node_modules/core-js/internals/regexp-exec-abstract.js");
+
+var max = Math.max;
+var min = Math.min;
+var floor = Math.floor;
+var SUBSTITUTION_SYMBOLS = /\$([$&'`]|\d\d?|<[^>]*>)/g;
+var SUBSTITUTION_SYMBOLS_NO_NAMED = /\$([$&'`]|\d\d?)/g;
+
+var maybeToString = function (it) {
+  return it === undefined ? it : String(it);
+};
+
+// @@replace logic
+fixRegExpWellKnownSymbolLogic('replace', 2, function (REPLACE, nativeReplace, maybeCallNative) {
+  return [
+    // `String.prototype.replace` method
+    // https://tc39.github.io/ecma262/#sec-string.prototype.replace
+    function replace(searchValue, replaceValue) {
+      var O = requireObjectCoercible(this);
+      var replacer = searchValue == undefined ? undefined : searchValue[REPLACE];
+      return replacer !== undefined
+        ? replacer.call(searchValue, O, replaceValue)
+        : nativeReplace.call(String(O), searchValue, replaceValue);
+    },
+    // `RegExp.prototype[@@replace]` method
+    // https://tc39.github.io/ecma262/#sec-regexp.prototype-@@replace
+    function (regexp, replaceValue) {
+      var res = maybeCallNative(nativeReplace, regexp, this, replaceValue);
+      if (res.done) return res.value;
+
+      var rx = anObject(regexp);
+      var S = String(this);
+
+      var functionalReplace = typeof replaceValue === 'function';
+      if (!functionalReplace) replaceValue = String(replaceValue);
+
+      var global = rx.global;
+      if (global) {
+        var fullUnicode = rx.unicode;
+        rx.lastIndex = 0;
+      }
+      var results = [];
+      while (true) {
+        var result = regExpExec(rx, S);
+        if (result === null) break;
+
+        results.push(result);
+        if (!global) break;
+
+        var matchStr = String(result[0]);
+        if (matchStr === '') rx.lastIndex = advanceStringIndex(S, toLength(rx.lastIndex), fullUnicode);
+      }
+
+      var accumulatedResult = '';
+      var nextSourcePosition = 0;
+      for (var i = 0; i < results.length; i++) {
+        result = results[i];
+
+        var matched = String(result[0]);
+        var position = max(min(toInteger(result.index), S.length), 0);
+        var captures = [];
+        // NOTE: This is equivalent to
+        //   captures = result.slice(1).map(maybeToString)
+        // but for some reason `nativeSlice.call(result, 1, result.length)` (called in
+        // the slice polyfill when slicing native arrays) "doesn't work" in safari 9 and
+        // causes a crash (https://pastebin.com/N21QzeQA) when trying to debug it.
+        for (var j = 1; j < result.length; j++) captures.push(maybeToString(result[j]));
+        var namedCaptures = result.groups;
+        if (functionalReplace) {
+          var replacerArgs = [matched].concat(captures, position, S);
+          if (namedCaptures !== undefined) replacerArgs.push(namedCaptures);
+          var replacement = String(replaceValue.apply(undefined, replacerArgs));
+        } else {
+          replacement = getSubstitution(matched, S, position, captures, namedCaptures, replaceValue);
+        }
+        if (position >= nextSourcePosition) {
+          accumulatedResult += S.slice(nextSourcePosition, position) + replacement;
+          nextSourcePosition = position + matched.length;
+        }
+      }
+      return accumulatedResult + S.slice(nextSourcePosition);
+    }
+  ];
+
+  // https://tc39.github.io/ecma262/#sec-getsubstitution
+  function getSubstitution(matched, str, position, captures, namedCaptures, replacement) {
+    var tailPos = position + matched.length;
+    var m = captures.length;
+    var symbols = SUBSTITUTION_SYMBOLS_NO_NAMED;
+    if (namedCaptures !== undefined) {
+      namedCaptures = toObject(namedCaptures);
+      symbols = SUBSTITUTION_SYMBOLS;
+    }
+    return nativeReplace.call(replacement, symbols, function (match, ch) {
+      var capture;
+      switch (ch.charAt(0)) {
+        case '$': return '$';
+        case '&': return matched;
+        case '`': return str.slice(0, position);
+        case "'": return str.slice(tailPos);
+        case '<':
+          capture = namedCaptures[ch.slice(1, -1)];
+          break;
+        default: // \d\d?
+          var n = +ch;
+          if (n === 0) return match;
+          if (n > m) {
+            var f = floor(n / 10);
+            if (f === 0) return match;
+            if (f <= m) return captures[f - 1] === undefined ? ch.charAt(1) : captures[f - 1] + ch.charAt(1);
+            return match;
+          }
+          capture = captures[n - 1];
+      }
+      return capture === undefined ? '' : capture;
+    });
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/webpack/buildin/global.js":
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ }),
+
+/***/ "./src/js/main.js":
+/*!************************!*\
+  !*** ./src/js/main.js ***!
+  \************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _modules_modals__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/modals */ "./src/js/modules/modals.js");
+/* harmony import */ var _modules_sliders__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/sliders */ "./src/js/modules/sliders.js");
+/* harmony import */ var _modules_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/forms */ "./src/js/modules/forms.js");
+/* harmony import */ var _modules_mask__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/mask */ "./src/js/modules/mask.js");
+/* harmony import */ var _modules_checkTextInputs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/checkTextInputs */ "./src/js/modules/checkTextInputs.js");
+/* harmony import */ var _modules_showMoreStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/showMoreStyles */ "./src/js/modules/showMoreStyles.js");
+/* harmony import */ var _modules_calc__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/calc */ "./src/js/modules/calc.js");
+/* harmony import */ var _modules_filter__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/filter */ "./src/js/modules/filter.js");
+/* harmony import */ var _modules_pictureHover__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/pictureHover */ "./src/js/modules/pictureHover.js");
+/* harmony import */ var _modules_accordion__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/accordion */ "./src/js/modules/accordion.js");
+/* harmony import */ var _modules_burger__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modules/burger */ "./src/js/modules/burger.js");
+/* harmony import */ var _modules_scrolling__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./modules/scrolling */ "./src/js/modules/scrolling.js");
+/* harmony import */ var _modules_dragdrop__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./modules/dragdrop */ "./src/js/modules/dragdrop.js");
+
+
+
+
+
+
+
+
+
+
+
+
+
+window.addEventListener('DOMContentLoaded', () => {
+  'use strict';
+
+  Object(_modules_modals__WEBPACK_IMPORTED_MODULE_0__["default"])();
+  Object(_modules_showMoreStyles__WEBPACK_IMPORTED_MODULE_5__["default"])('.button-styles', '#styles .row');
+  Object(_modules_sliders__WEBPACK_IMPORTED_MODULE_1__["default"])('.feedback-slider-item', 'horizontal', '.main-prev-btn', '.main-next-btn');
+  Object(_modules_sliders__WEBPACK_IMPORTED_MODULE_1__["default"])('.main-slider-item', 'vertical');
+  Object(_modules_forms__WEBPACK_IMPORTED_MODULE_2__["default"])();
+  Object(_modules_mask__WEBPACK_IMPORTED_MODULE_3__["default"])('[name="phone"]');
+  Object(_modules_checkTextInputs__WEBPACK_IMPORTED_MODULE_4__["default"])('[name="name"]');
+  Object(_modules_checkTextInputs__WEBPACK_IMPORTED_MODULE_4__["default"])('[name="message"]');
+  Object(_modules_calc__WEBPACK_IMPORTED_MODULE_6__["default"])('#size', '#material', '#options', '.promocode', '.calc-price');
+  Object(_modules_filter__WEBPACK_IMPORTED_MODULE_7__["default"])();
+  Object(_modules_pictureHover__WEBPACK_IMPORTED_MODULE_8__["default"])('.sizes-block');
+  Object(_modules_accordion__WEBPACK_IMPORTED_MODULE_9__["default"])('.accordion-heading');
+  Object(_modules_burger__WEBPACK_IMPORTED_MODULE_10__["default"])('.burger-menu', '.burger');
+  Object(_modules_scrolling__WEBPACK_IMPORTED_MODULE_11__["default"])('.pageup');
+  Object(_modules_dragdrop__WEBPACK_IMPORTED_MODULE_12__["default"])();
+});
+
+/***/ }),
+
+/***/ "./src/js/modules/accordion.js":
+/*!*************************************!*\
+  !*** ./src/js/modules/accordion.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const accordion = triggersSelector => {
+  const btns = document.querySelectorAll(triggersSelector);
+  btns.forEach(btn => {
+    btn.addEventListener('click', function () {
+      btns.forEach(btn => {
+        btn.classList.remove('active-style');
+        btn.nextElementSibling.classList.remove('active-content');
+        btn.nextElementSibling.style.maxHeight = '0px';
+      });
+      this.classList.toggle('active-style');
+      this.nextElementSibling.classList.toggle('active-content');
+
+      if (this.classList.contains('active-style')) {
+        this.nextElementSibling.style.maxHeight = this.nextElementSibling.scrollHeight + 80 + 'px';
+      } else {
+        this.nextElementSibling.style.maxHeight = '0px';
+      }
+    });
+  }); // const = blocks = document.querySelectorAll(itemsSelector);
+  // blocks.forEach(block => {
+  //   block.classList.add('animated', 'fadeInDown');
+  // });
+  // btns.forEach(btn => {
+  //   btn.addEventListener('click', function() {
+  //     if (this.classList.contains('active')) {
+  //       btns.forEach(btn => {
+  //         btn.classList.remove('active');
+  //       })
+  //       blocks.forEach(block => {
+  //         block.classList.remove('accordion-block-active');
+  //       })
+  //       this.classList.remove('active');
+  //       this.nextElementSibling.classList.remove('accordion-block-active');
+  //     } else {
+  //       btns.forEach(btn => {
+  //         btn.classList.remove('active');
+  //       })
+  //       blocks.forEach(block => {
+  //         block.classList.remove('accordion-block-active');
+  //       })
+  //       this.classList.add('active');
+  //       this.nextElementSibling.classList.add('accordion-block-active');
+  //     }
+  //   });
+  // });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (accordion);
+
+/***/ }),
+
+/***/ "./src/js/modules/burger.js":
+/*!**********************************!*\
+  !*** ./src/js/modules/burger.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const burger = (menuSelector, burgerSelector) => {
+  const menuElem = document.querySelector(menuSelector),
+        burgerElem = document.querySelector(burgerSelector);
+  menuElem.style.display = 'none';
+  burgerElem.addEventListener('click', () => {
+    if (menuElem.style.display == 'none' && window.screen.availWidth < 993) {
+      menuElem.style.display = 'block';
+    } else {
+      menuElem.style.display = 'none';
+    }
+  });
+  window.addEventListener('resize', () => {
+    if (window.screen.availWidth > 992) {
+      menuElem.style.display = 'none';
+    }
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (burger);
+
+/***/ }),
+
+/***/ "./src/js/modules/calc.js":
+/*!********************************!*\
+  !*** ./src/js/modules/calc.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const calc = (size, material, options, promocode, result) => {
+  const sizeBlock = document.querySelector(size),
+        materialBlock = document.querySelector(material),
+        optionsBlock = document.querySelector(options),
+        promocodeBlock = document.querySelector(promocode),
+        resultBlock = document.querySelector(result);
+  let sum = 0;
+
+  const calcFunc = () => {
+    sum = Math.round(+sizeBlock.value * +materialBlock.value + +optionsBlock.value);
+
+    if (sizeBlock.value == '' || materialBlock.value == '') {
+      resultBlock.textContent = "Пожалуйста, выберите размер и материал картины";
+    } else if (promocodeBlock.value === 'IWANTPOPART') {
+      resultBlock.textContent = Math.round(sum * 0.7 + ' грн');
+    } else {
+      resultBlock.textContent = sum + ' грн';
+    }
+  };
+
+  sizeBlock.addEventListener('change', calcFunc);
+  materialBlock.addEventListener('change', calcFunc);
+  optionsBlock.addEventListener('change', calcFunc);
+  promocodeBlock.addEventListener('input', calcFunc);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (calc);
+
+/***/ }),
+
+/***/ "./src/js/modules/checkTextInputs.js":
+/*!*******************************************!*\
+  !*** ./src/js/modules/checkTextInputs.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const checkTextInputs = selector => {
+  const txtInputs = document.querySelectorAll(selector);
+  txtInputs.forEach(input => {
+    input.addEventListener('keypress', e => {
+      if (e.key.match(/[^а-яё 0-9]/ig) && e.key.match(/[^а-яії 0-9]/ig)) {
+        e.preventDefault();
+        input.placeholder = 'Только латиница';
+      }
+    });
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (checkTextInputs);
+
+/***/ }),
+
+/***/ "./src/js/modules/dragdrop.js":
+/*!************************************!*\
+  !*** ./src/js/modules/dragdrop.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const dragdrop = () => {
+  const fileInputs = document.querySelectorAll('[name="upload"]');
+  ['dragenter', 'dragleave', 'dragover', 'drop'].forEach(event => {
+    fileInputs.forEach(input => {
+      input.addEventListener(event, preventDefaults, false);
+    });
+  });
+
+  function preventDefaults(e) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+
+  function highlight(item) {
+    item.closest('.file_upload').style.border = "1px solid yellow";
+    item.closest('.file_upload').style.backgroundColor = "rgba(0, 0, 0, .7)";
+  }
+
+  function unHighlight(item) {
+    item.closest('.file_upload').style.border = "1px solid yellow";
+
+    if (item.closest('.calc_form')) {
+      item.closest('.file_upload').style.backgroundColor = "#fff";
+    } else {
+      item.closest('.file_upload').style.backgroundColor = "#ededed";
+    }
+  }
+
+  ['dragenter', 'dragover'].forEach(event => {
+    fileInputs.forEach(input => {
+      input.addEventListener(event, () => highlight(input), false);
+    });
+  });
+  ['drop', 'dragleave'].forEach(event => {
+    fileInputs.forEach(input => {
+      input.addEventListener(event, () => unHighlight(input), false);
+    });
+  });
+  fileInputs.forEach(input => {
+    input.addEventListener('drop', e => {
+      input.files = e.dataTransfer.files;
+      let dots;
+      const arr = input.files[0].name.split('.');
+      arr[0].length > 6 ? dots = "..." : dots = '.';
+      const name = arr[0].substring(0, 6) + dots + arr[1];
+      input.previousElementSibling.textContent = name;
+    });
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (dragdrop);
+
+/***/ }),
+
+/***/ "./src/js/modules/filter.js":
+/*!**********************************!*\
+  !*** ./src/js/modules/filter.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const filter = () => {
+  const menu = document.querySelector('.portfolio-menu'),
+        items = menu.querySelectorAll('li'),
+        btnAll = menu.querySelector('.all'),
+        btnLovers = menu.querySelector('.lovers'),
+        btnChef = menu.querySelector('.chef'),
+        btnGirl = menu.querySelector('.girl'),
+        btnGuy = menu.querySelector('.guy'),
+        btnGrandmother = menu.querySelector('.grandmother'),
+        btnGranddad = menu.querySelector('.granddad'),
+        wrapper = document.querySelector('.portfolio-wrapper'),
+        markAll = wrapper.querySelectorAll('.all'),
+        markGirl = wrapper.querySelectorAll('.girl'),
+        markLovers = wrapper.querySelectorAll('.lovers'),
+        markChef = wrapper.querySelectorAll('.chef'),
+        markGuy = wrapper.querySelectorAll('.guy'),
+        no = document.querySelector('.portfolio-no');
+
+  const typeFilter = markType => {
+    markAll.forEach(mark => {
+      mark.style.display = 'none';
+      mark.classList.remove('animated', 'fadeIn');
+    });
+    no.style.display = 'none';
+    no.classList.remove('animated', 'fadeIn');
+
+    if (markType) {
+      markType.forEach(mark => {
+        mark.style.display = 'block';
+        mark.classList.add('animated', 'fadeIn');
+      });
+    } else {
+      no.style.display = 'block';
+      no.classList.add('animated', 'fadeIn');
+    }
+  };
+
+  btnAll.addEventListener('click', () => {
+    typeFilter(markAll);
+  });
+  btnLovers.addEventListener('click', () => {
+    typeFilter(markLovers);
+  });
+  btnChef.addEventListener('click', () => {
+    typeFilter(markChef);
+  });
+  btnGuy.addEventListener('click', () => {
+    typeFilter(markGuy);
+  });
+  btnGirl.addEventListener('click', () => {
+    typeFilter(markGirl);
+  });
+  btnGrandmother.addEventListener('click', () => {
+    typeFilter();
+  });
+  btnGranddad.addEventListener('click', () => {
+    typeFilter();
+  });
+  menu.addEventListener('click', e => {
+    let target = e.target;
+
+    if (target && target.tagName == 'LI') {
+      items.forEach(btn => btn.classList.remove('active'));
+      target.classList.add('active');
+    }
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (filter);
+
+/***/ }),
+
+/***/ "./src/js/modules/forms.js":
+/*!*********************************!*\
+  !*** ./src/js/modules/forms.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es_promise_finally__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.promise.finally */ "./node_modules/core-js/modules/es.promise.finally.js");
+/* harmony import */ var core_js_modules_es_promise_finally__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_finally__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _services_requests__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../services/requests */ "./src/js/services/requests.js");
+
+
+
+const forms = () => {
+  const form = document.querySelectorAll('form'),
+        inputs = document.querySelectorAll('input'),
+        upload = document.querySelectorAll('[name="upload"]');
+  const size = document.querySelectorAll('#size'),
+        material = document.querySelectorAll('#material'),
+        options = document.querySelectorAll('#options'),
+        promocode = document.querySelectorAll('.promocode'),
+        result = document.querySelectorAll('.calc-price');
+  let state = {};
+  const message = {
+    loading: 'Загрузка...',
+    success: 'Спасибо! Скоро мы с вами свяжемся',
+    failure: 'Что-то пошло не так...',
+    spinner: 'assets/img/spinner.gif',
+    ok: 'assets/img/ok.png',
+    fail: 'assets/img/fail.png'
+  };
+  const path = {
+    designer: 'assets/server.php',
+    question: 'assets/question.php'
+  };
+
+  const clearInputs = () => {
+    upload.forEach(item => {
+      item.previousElementSibling.textContent = "Файл не выбран";
+    });
+  };
+
+  upload.forEach(item => {
+    item.addEventListener('input', () => {
+      console.log(item.files[0]);
+      let dots;
+      const arr = item.files[0].name.split('.');
+      arr[0].length > 6 ? dots = "..." : dots = '.';
+      const name = arr[0].substring(0, 6) + dots + arr[1];
+      item.previousElementSibling.textContent = name;
+    });
+  });
+
+  function bindActionToElems(event, elem, prop) {
+    elem.forEach(item => {
+      item.addEventListener(event, () => {
+        switch (item.nodeName) {
+          case 'INPUT':
+            state[prop] = item.value;
+            break;
+
+          case 'SELECT':
+            state[prop] = item.value;
+            break;
+        }
+
+        console.log(state);
+      });
+    });
+  }
+
+  bindActionToElems('input', size, 'optsizeion');
+  bindActionToElems('input', material, 'material');
+  bindActionToElems('input', options, 'options');
+  bindActionToElems('input', promocode, 'promocode');
+  bindActionToElems('input', result, 'result');
+  form.forEach(item => {
+    item.addEventListener('submit', e => {
+      e.preventDefault();
+      let statusMessage = document.createElement('div');
+      statusMessage.classList.add('status');
+      item.classList.add('animated', 'fadeOut');
+      setTimeout(() => {
+        item.style.display = 'none';
+      }, 400);
+      let statusImg = document.createElement('img');
+      statusImg.setAttribute('src', message.spinner);
+      statusImg.classList.add('animated', 'fadeIn');
+      statusMessage.appendChild(statusImg);
+      let textMessage = document.createElement('div');
+      textMessage.textContent = message.loading;
+      statusMessage.appendChild(textMessage);
+      const formData = new FormData(item);
+      let api;
+      item.closest('.popup-design') || item.classList.contains('calc_form') ? api = path.designer : api = path.question;
+
+      if (api === path.designer) {
+        for (let key in state) {
+          formData.append(key, state[key]);
+        }
+
+        formData.append('total', result[0].textContent);
+      }
+
+      console.log(api);
+      console.log(result[0].textContent);
+      Object(_services_requests__WEBPACK_IMPORTED_MODULE_1__["postData"])(api, formData).then(res => {
+        console.log(res);
+        statusImg.setAttribute('src', message.ok);
+        textMessage.textContent = message.success;
+        setTimeout(() => {
+          item.parentNode.appendChild(statusMessage);
+        }, 400);
+      }).catch(() => {
+        statusImg.setAttribute('src', message.fail);
+        textMessage.textContent = message.failure;
+      }).finally(() => {
+        clearInputs();
+        setTimeout(() => {
+          statusMessage.remove();
+          item.style.display = 'block';
+          item.classList.remove('fadeOut');
+          item.classList.add('fadeIn');
+          item.reset();
+        }, 5000);
+        state = {};
+      });
+    });
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (forms);
+
+/***/ }),
+
+/***/ "./src/js/modules/mask.js":
+/*!********************************!*\
+  !*** ./src/js/modules/mask.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es_string_replace__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.string.replace */ "./node_modules/core-js/modules/es.string.replace.js");
+/* harmony import */ var core_js_modules_es_string_replace__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace__WEBPACK_IMPORTED_MODULE_0__);
+
+
+const mask = selector => {
+  let setCursorPosition = (pos, elem) => {
+    elem.focus();
+
+    if (elem.setSelectionRange) {
+      elem.setSelectionRange(pos, pos);
+    } else if (elem.createTextRange) {
+      let range = elem.createTextRange();
+      range.collapse(true);
+      range.moveEnd('character', pos);
+      range.moveStart('character', pos);
+      range.select();
+    }
+  };
+
+  function createMask(event) {
+    let matrix = '+38 (___) ___ __ __',
+        i = 0,
+        def = matrix.replace(/\D/g, ''),
+        val = this.value.replace(/\D/g, '');
+
+    if (def.length >= val.length) {
+      val = def;
+    }
+
+    this.value = matrix.replace(/./g, function (a) {
+      return /[_\d]/.test(a) && i < val.length ? val.charAt(i++) : i >= val.length ? '' : a;
+    });
+
+    if (event.type === 'blur') {
+      if (this.value.length == 2) {
+        this.value = '';
+      }
+    } else {
+      setCursorPosition(this.value.length, this);
+    }
+  }
+
+  let inputs = document.querySelectorAll(selector);
+  inputs.forEach(input => {
+    input.addEventListener('input', createMask);
+    input.addEventListener('focus', createMask);
+    input.addEventListener('blur', createMask);
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (mask);
+
+/***/ }),
+
+/***/ "./src/js/modules/modals.js":
+/*!**********************************!*\
+  !*** ./src/js/modules/modals.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const modals = () => {
+  let btnPressed = false;
+
+  function bindModal(triggerSelector, modalSelector, closeSelector, destroy = false) {
+    const trigger = document.querySelectorAll(triggerSelector),
+          modal = document.querySelector(modalSelector),
+          close = document.querySelector(closeSelector),
+          windows = document.querySelectorAll('[data-modal]'),
+          scroll = calcScrollWidth();
+    trigger.forEach(item => {
+      item.addEventListener('click', e => {
+        if (e.target) {
+          e.preventDefault();
+        }
+
+        btnPressed = true;
+
+        if (destroy) {
+          item.style.visibility = 'hidden';
+        }
+
+        if (item !== '.fixed-gift') {
+          document.querySelector('.fixed-gift').style.marginRight = `${scroll}px`;
+        } else {
+          document.querySelector('.fixed-gift').style.marginRight = '0px';
+        }
+
+        windows.forEach(item => {
+          item.style.display = 'none';
+          item.classList.add('animated', 'fadeInDown');
+        });
+        modal.style.display = "block";
+        document.body.style.overflow = "hidden";
+        document.body.style.marginRight = `${scroll}px`;
+      });
+    });
+    close.addEventListener('click', () => {
+      windows.forEach(item => {
+        item.style.display = 'none';
+      });
+      modal.style.display = "none";
+      document.body.style.overflow = "";
+      document.body.style.marginRight = `0px`;
+      document.querySelector('.fixed-gift').style.marginRight = '0px';
+    });
+    modal.addEventListener('click', e => {
+      if (e.target === modal) {
+        windows.forEach(item => {
+          item.style.display = 'none';
+        });
+        modal.style.display = "none";
+        document.body.style.overflow = "";
+        document.body.style.marginRight = `0px`;
+        document.querySelector('.fixed-gift').style.marginRight = '0px';
+      }
+    });
+  }
+
+  function showModalByTime(selector, time) {
+    setTimeout(function () {
+      let display;
+      let scroll = calcScrollWidth();
+      document.querySelectorAll('[data-modal]').forEach(item => {
+        if (getComputedStyle(item).display !== 'none') {
+          display = 'block';
+        }
+      });
+
+      if (!display) {
+        document.querySelector(selector).style.display = 'block';
+        document.body.style.overflow = "hidden";
+        document.body.style.marginRight = `${scroll}px`;
+        document.querySelector('.fixed-gift').style.marginRight = `${scroll}px`;
+      }
+    }, time);
+  }
+
+  function calcScrollWidth() {
+    let div = document.createElement('div');
+    div.style.width = '50px';
+    div.style.height = '50px';
+    div.style.overflowY = 'scroll';
+    div.style.visibility = 'hidden';
+    document.body.appendChild(div);
+    let scrollWidth = div.offsetWidth - div.clientWidth;
+    div.remove();
+    return scrollWidth;
+  }
+
+  function openByScroll(selector) {
+    window.addEventListener('scroll', () => {
+      let scrollHeight = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight);
+
+      if (!btnPressed && window.pageYOffset + document.documentElement.clientHeight >= scrollHeight) {
+        document.querySelector(selector).click();
+      }
+    });
+  }
+
+  bindModal('.button-design', '.popup-design', '.popup-design .popup-close');
+  bindModal('.button-consultation', '.popup-consultation', '.popup-consultation .popup-close');
+  bindModal('.fixed-gift', '.popup-gift', '.popup-gift .popup-close', true);
+  openByScroll('.fixed-gift');
+  showModalByTime('.popup-consultation', 60000);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (modals);
+
+/***/ }),
+
+/***/ "./src/js/modules/pictureHover.js":
+/*!****************************************!*\
+  !*** ./src/js/modules/pictureHover.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const pictureHover = imgSelector => {
+  const blocks = document.querySelectorAll(imgSelector);
+
+  function showImg(block) {
+    const img = block.querySelector('img');
+    img.src = img.src.slice(0, -4) + '-1.png';
+    block.querySelectorAll('p:not(.sizes-hit)').forEach(p => {
+      p.style.display = 'none';
+    });
+  }
+
+  ;
+
+  function hideImg(block) {
+    const img = block.querySelector('img');
+    img.src = img.src.slice(0, -6) + '.png';
+    block.querySelectorAll('p:not(.sizes-hit)').forEach(p => {
+      p.style.display = 'block';
+    });
+  }
+
+  ;
+  blocks.forEach(block => {
+    block.addEventListener('mouseover', () => {
+      showImg(block);
+    });
+  });
+  blocks.forEach(block => {
+    block.addEventListener('mouseout', () => {
+      hideImg(block);
+    });
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (pictureHover);
+
+/***/ }),
+
+/***/ "./src/js/modules/scrolling.js":
+/*!*************************************!*\
+  !*** ./src/js/modules/scrolling.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const scrolling = upSelector => {
+  const upElem = document.querySelector(upSelector);
+  window.addEventListener('scroll', () => {
+    if (document.documentElement.scrollTop > 1650) {
+      upElem.classList.add('animated', 'fadeIn');
+      upElem.classList.remove('fadeOut');
+    } else {
+      upElem.classList.add('fadeOut');
+      upElem.classList.remove('fadeIn');
+    }
+  });
+  let links = document.querySelectorAll('[href^="#"]'),
+      speed = 0.3;
+  links.forEach(link => {
+    link.addEventListener('click', function (event) {
+      event.preventDefault();
+      let widthTop = document.documentElement.scrollTop,
+          hash = this.hash,
+          toBlock = document.querySelector(hash).getBoundingClientRect().top,
+          start = null;
+      requestAnimationFrame(step);
+
+      function step(time) {
+        if (start === null) {
+          start = time;
+        }
+
+        let progress = time - start,
+            r = toBlock < 0 ? Math.max(widthTop - progress / speed, widthTop + toBlock) : Math.min(widthTop + progress / speed, widthTop + toBlock);
+        document.documentElement.scrollTo(0, r);
+
+        if (r != widthTop + toBlock) {
+          requestAnimationFrame(step);
+        } else {
+          location.hash = hash;
+        }
+      }
+    });
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (scrolling);
+
+/***/ }),
+
+/***/ "./src/js/modules/showMoreStyles.js":
+/*!******************************************!*\
+  !*** ./src/js/modules/showMoreStyles.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _services_requests__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../services/requests */ "./src/js/services/requests.js");
+
+
+const showMoreStyles = (trigger, wrapper) => {
+  const btn = document.querySelector(trigger);
+  btn.addEventListener('click', function () {
+    Object(_services_requests__WEBPACK_IMPORTED_MODULE_0__["getResource"])('assets/db.json').then(res => createCards(res.styles)).catch(error => console.log(error));
+    this.remove();
+  });
+
+  function createCards(response) {
+    response.forEach(({
+      src,
+      title,
+      link
+    }) => {
+      let card = document.createElement('div');
+      card.classList.add('animated', 'fadeInUp', 'col-sm-3', 'col-sm-offset-0', 'col-xs-10', 'col-xs-offset-1');
+      card.innerHTML = `
+                <div class="styles-block">
+                    <img src=${src} alt="style">
+                    <h4>${title}</h4>
+                    <a href=${link}>Подробнее</a>
+                </div>
+            `;
+      document.querySelector(wrapper).appendChild(card);
+    });
+  }
+
+  ;
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (showMoreStyles);
+
+/***/ }),
+
+/***/ "./src/js/modules/sliders.js":
+/*!***********************************!*\
+  !*** ./src/js/modules/sliders.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const sliders = (slides, direction, prev, next) => {
+  let slideIndex = 1,
+      // current slide
+  pause = false;
+  const items = document.querySelectorAll(slides);
+
+  function showSlides(n) {
+    if (n > items.length) {
+      slideIndex = 1;
+    }
+
+    if (n < 1) {
+      slideIndex = items.length;
+    }
+
+    items.forEach(item => {
+      item.classList.add('animated');
+      item.style.display = 'none';
+    });
+    items[slideIndex - 1].style.display = 'block';
+  }
+
+  showSlides(slideIndex);
+
+  function changeSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  try {
+    const prevBtn = document.querySelector(prev),
+          nextBtn = document.querySelector(next);
+    prevBtn.addEventListener('click', () => {
+      changeSlides(-1);
+      items[slideIndex - 1].classList.remove('fadeIn');
+      items[slideIndex - 1].classList.add('fadeIn');
+    });
+    nextBtn.addEventListener('click', () => {
+      changeSlides(1);
+      items[slideIndex - 1].classList.remove('fadeIn');
+      items[slideIndex - 1].classList.add('fadeIn');
+    });
+  } catch (e) {}
+
+  function activateAniamtion() {
+    if (direction === 'vertical') {
+      pause = setInterval(() => {
+        changeSlides(1);
+        items[slideIndex - 1].classList.add('fadeInLeft');
+      }, 4000);
+    } else {
+      pause = setInterval(() => {
+        changeSlides(1);
+        items[slideIndex - 1].classList.remove('fadeIn');
+        items[slideIndex - 1].classList.add('fadeIn');
+      }, 5000);
+    }
+  }
+
+  activateAniamtion();
+  items[0].parentNode.addEventListener('mouseenter', () => {
+    clearInterval(pause);
+  });
+  items[0].parentNode.addEventListener('mouseleave', () => {
+    activateAniamtion();
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (sliders);
+
+/***/ }),
+
+/***/ "./src/js/services/requests.js":
+/*!*************************************!*\
+  !*** ./src/js/services/requests.js ***!
+  \*************************************/
+/*! exports provided: postData, getResource */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "postData", function() { return postData; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getResource", function() { return getResource; });
+const postData = async (url, data) => {
+  let res = await fetch(url, {
+    method: 'POST',
+    body: data
+  });
+  return await res.text();
+};
+
+const getResource = async url => {
+  let res = await fetch(url);
+
+  if (!res.ok) {
+    throw new Error(`Could not fetch ${url}, status ${res.status}`);
+  }
+
+  return await res.json();
+};
+
+
+
+/***/ })
+
+/******/ });
+//# sourceMappingURL=script.js.map

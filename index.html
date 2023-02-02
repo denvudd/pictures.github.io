@@ -81,11 +81,7 @@
 					<p class=logo-p>Преврати фотографию в настоящую картину!</p>
 				</div>
 				<div class="col-md-3 col-md-offset-3 col-sm-offset-0 col-sm-4 hidden-xs">
-					<div class=file_upload>
-						<button type=button>Загрузить фотографию</button>
-						<div>Файл не выбран</div>
-						<input type=file name=upload>
-					</div>
+					
 					<p class=email>E-mail: <a href=mailto:info@kartiny.art>info@kartiny.art</a></p>
 				</div>
 				<div class="col-md-3 col-sm-4 col-xs-7">
@@ -208,16 +204,16 @@
 						<div class=file_upload>
 							<button type=button>Загрузить фотографию</button>
 							<div>Файл не выбран</div>
-							<input type=file name=upload>
+							<input type=file name=upload accept="image/*">
 						</div>
-						<select id=size>
+						<select required id=size>
 							<option value>Выберите размер картины</option>
 							<option value="500">40x50</option>
 							<option value="1000">50x70</option>
 							<option value="1500">70x70</option>
 							<option value="2000">70x100</option>
 						</select>
-						<select id=material>
+						<select required id=material>
 							<option value>Выберите материал картины</option>
 							<option value="1"
 								title="Изящный, позволяет легко создавать текстуру, подходит для декоративных картин маслом.">Холст из
@@ -478,7 +474,7 @@
 	</section>
 	<div class=feedback>
 		<div class=container>
-			<div class=feedback-slider style="position:relative; height: 400px;">
+			<div class=feedback-slider style="position:relative;">
 				<button class="main-slider-btn main-prev-btn">
 					<img src="assets/img/left-arr.png" alt="left">
 				</button>'
@@ -697,7 +693,7 @@
 					<div class=file_upload>
 						<div>Файл не выбран</div>
 						<button type=button>Загрузить фотографию</button>
-						<input type=file name=upload>
+						<input type=file name=upload accept="image/*">
 					</div>
 					<div class=main-form>
 						<div class=form>
@@ -716,7 +712,7 @@
 		<svg class="up" viewBox="0 0 26 26" fill="#fff" xmlns="http://www.w3.org/2000/svg">
 			<path fill-rule="evenodd" clip-rule="evenodd"
 				d="M26 0H0V26H26V0ZM4.6593 17.7519L13.1233 10.33L21.5873 17.7519L22.9059 16.2481L13.7826 8.24813L13.1233 7.67L12.464 8.24813L3.3407 16.2481L4.6593 17.7519Z"
-				fill="black" />
+				fill="#c818bc" />
 		</svg>
 	</a>
 	<script src="script.js"></script>
